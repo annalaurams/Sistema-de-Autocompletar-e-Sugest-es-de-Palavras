@@ -1,8 +1,12 @@
-#include "tree.hpp"
-#include "document.hpp"
+#include "./include/tree.hpp"
+#include "./include/document.hpp"
+#include <chrono>
+
 using namespace std;
+using namespace std::chrono;
 
 int main() {
+
 
     clock_t startTime, endTime;
     startTime = clock();
@@ -25,10 +29,13 @@ int main() {
     search(lenght, i, glossaryStopWords);
     outEnd();
 
+
+
+ 
     endTime = clock();
     clock_t elapsedTime = endTime - startTime;
     double elapsedTimeMs = ((double)elapsedTime/CLOCKS_PER_SEC)*1000;
-    cout << "\nTEMPO DE EXECUÇÃO: " << elapsedTimeMs << " ms " << endl;
+    cout << "\nTEMPO DE EXECUÇÃO TIME.H: " << elapsedTimeMs << " ms " << endl;
     cout << endl;
 
     return 0;
