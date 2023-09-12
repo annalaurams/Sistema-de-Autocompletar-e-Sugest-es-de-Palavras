@@ -28,11 +28,11 @@ public:
 void HuffmanCodes(vector<WordInfo>& heap) ;
 Huffman* generateHuffman(priority_queue<Huffman*, vector<Huffman*>, Compare>& huff);
 void printPriorityQueue(priority_queue<Huffman*, vector<Huffman*>, Compare>& huff);
-void printCodes(Huffman* rootH, int arr[], int top);
+void printCodes(Huffman* rootH, int array[], int top);
 void clearHuffmanTree(Huffman* rootH);
 
-void outHuffPrint(Huffman* rootH, int arr[], int top, ofstream& outT);
-void outHuff(Huffman* rootH, int arr[], int top);
+void outHuffPrint(Huffman* rootH, int array[], int top, ofstream& outT);
+void outHuff(Huffman* rootH, int array[], int top);
 
 
 

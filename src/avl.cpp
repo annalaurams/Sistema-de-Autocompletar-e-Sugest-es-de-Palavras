@@ -1,5 +1,6 @@
 #include "./include/avl.hpp"
 
+int cont = 0;
 
 // AVL
 
@@ -18,7 +19,7 @@ AVL *newNode(WordInfo data) {
   AVL *node = new AVL();
 
   node->keyAVL = data;
-  node->vetor.push_back(data.word);
+  // node->vetor.push_back(data.word);
   node->leftAVL = nullptr;
   node->rightAVL = nullptr;
   node->height = 0;
@@ -70,36 +71,33 @@ AVL *insertAvl(AVL *node, WordInfo data) {
     return (newNode(data));
   }
 
-  if (data.occurrences < node->keyAVL.occurrences) {
-    node->leftAVL = insertAvl(node->leftAVL, data);
+  if (data.word != node->keyAVL.word) {
 
-    if (height(node->leftAVL) - height(node->rightAVL) == 2) {
-      if (data.occurrences < node->leftAVL->keyAVL.occurrences) {
-        node = rightRotate(node);
-      } else {
-        node->leftAVL = leftRotate(node->leftAVL);
-        node = rightRotate(node);
+    if (data.occurrences <= node->keyAVL.occurrences) {
+      node->leftAVL = insertAvl(node->leftAVL, data);
+
+      if (height(node->leftAVL) - height(node->rightAVL) == 2) {
+        if (data.occurrences <= node->leftAVL->keyAVL.occurrences) {
+          node = rightRotate(node);
+        } else {
+          node->leftAVL = leftRotate(node->leftAVL);
+          node = rightRotate(node);
+        }
       }
     }
-  }
 
-  else if (data.occurrences > node->keyAVL.occurrences) {
-    node->rightAVL = insertAvl(node->rightAVL, data);
+    if (data.occurrences > node->keyAVL.occurrences) {
+      node->rightAVL = insertAvl(node->rightAVL, data);
 
-    if (height(node->rightAVL) - height(node->leftAVL) == 2) {
-      if (data.occurrences > node->rightAVL->keyAVL.occurrences) {
-        node = leftRotate(node);
-      } else {
-        node->rightAVL = rightRotate(node->rightAVL);
-        node = leftRotate(node);
+      if (height(node->rightAVL) - height(node->leftAVL) == 2) {
+        if (data.occurrences > node->rightAVL->keyAVL.occurrences) {
+          node = leftRotate(node);
+        } else {
+          node->rightAVL = rightRotate(node->rightAVL);
+          node = leftRotate(node);
+        }
       }
     }
-  } else {
-
-    node->vetor.push_back(data.word);
-
-
-
   }
 
   node->height = max(height(node->leftAVL), height(node->rightAVL)) + 1;
@@ -108,7 +106,6 @@ AVL *insertAvl(AVL *node, WordInfo data) {
 }
 
 void printAVL(AVL *rootAVL) {
-
 
   if (rootAVL == nullptr)
     return;
@@ -128,9 +125,7 @@ void printAVL(AVL *rootAVL) {
 
       //cout << current->keyAVL.word << ": " << current->keyAVL.occurrences << " ";
 
-      for (auto aux : current->vetor)
-        cout << aux << ": " << current->keyAVL.occurrences << " " << endl;
-
+      cout << current->keyAVL.word << ": " << current->keyAVL.occurrences;
 
       if (current->leftAVL != nullptr)
         x.push(current->leftAVL);
@@ -150,32 +145,33 @@ void printAVL(AVL *rootAVL) {
 }
 
 void posordemAVL(AVL *rootAVL) {
+
   if (rootAVL != nullptr) {
 
-    for (auto aux : rootAVL->vetor)
-      cout << aux << ": " << rootAVL->keyAVL.occurrences << " " << endl;
     posordemAVL(rootAVL->leftAVL);
-
-    //cout << rootAVL->keyAVL.word << ": " << rootAVL->keyAVL.occurrences << endl;
     posordemAVL(rootAVL->rightAVL);
-
+    cout << rootAVL->keyAVL.word << ": " << rootAVL->keyAVL.occurrences << endl;
   }
 }
 
-void avl(vector<WordInfo>heap) {
+void avl(vector<WordInfo>heap){
 
-  AVL *rootAVL = new AVL();
+  auto startA = chrono::steady_clock::now();
+  
+  AVL *rootAVL = nullptr;
 
   for (const auto &wordInfo : heap) {
+
     rootAVL = insertAvl(rootAVL, wordInfo);
   }
-
-  posordemAVL(rootAVL);
-  // printAVL(rootAVL);
-  cout << endl;
-
+  cont++;
+  //printAVL(rootAVL);
   outAVL(rootAVL);
+
   removeAllAVL(rootAVL);
+  auto endA = chrono::steady_clock::now();
+  cout << "\nTEMPO AVL: " << chrono::duration_cast<chrono::nanoseconds>(endA - startA).count() << " ns" << endl << endl;
+
 }
 
 void removeAllAVL(AVL *&rootAVL) {
@@ -192,17 +188,10 @@ void outPrintAVL(AVL *rootAVL, ofstream &outT) {
 
   if (rootAVL == nullptr) return;
 
-
-
   outPrintAVL(rootAVL->leftAVL, outT);
-
-
-  //outT << rootAVL->keyAVL.word << ": " << rootAVL->keyAVL.occurrences << ", ";
-
   outPrintAVL(rootAVL->rightAVL, outT);
+  outT << rootAVL->keyAVL.word << ": " << rootAVL->keyAVL.occurrences << " ";
 
-  for (auto aux : rootAVL->vetor)
-    outT << aux << ": " << rootAVL->keyAVL.occurrences << " ";
 }
 
 void outAVL(AVL *rootAVL) {

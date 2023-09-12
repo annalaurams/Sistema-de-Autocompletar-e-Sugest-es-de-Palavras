@@ -2,73 +2,77 @@
 
 // HUFFMAN
 
-Huffman* generateHuffman(priority_queue<Huffman*, vector<Huffman*>, Compare>& huff){
+Huffman *generateHuffman(priority_queue<Huffman *, vector<Huffman *>, Compare> &huff) {
 
-    while (huff.size() != 1){
+    while (huff.size() != 1) {
 
-      //printPriorityQueue(huff);
-      Huffman* leftH = huff.top();
-      huff.pop();
+        //printPriorityQueue(huff);
+        Huffman *leftH = huff.top();
+        huff.pop();
 
-      Huffman* rightH = huff.top();
-      huff.pop();
+        Huffman *rightH = huff.top();
+        huff.pop();
 
-      WordInfo* h = new WordInfo{"", leftH->keyHuff->occurrences + rightH->keyHuff->occurrences};
-      Huffman * node = new Huffman(h);
-      node->leftH = leftH;
-      node->rightH = rightH;
+        WordInfo *h = new WordInfo { "", leftH->keyHuff->occurrences + rightH->keyHuff->occurrences };
+        Huffman *node = new Huffman(h);
+        node->leftH = leftH;
+        node->rightH = rightH;
 
-      huff.push(node);
+        huff.push(node);
     }
-    
+
     return huff.top();
 }
 
-void printCodes(Huffman* rootH, int arr[], int top){
+void printCodes(Huffman *rootH, int array[], int top) {
 
     if (rootH->leftH) {
-        arr[top] = 0;
-        printCodes(rootH->leftH, arr, top + 1); 
+        array[top] = 0;
+        printCodes(rootH->leftH, array, top + 1);
     }
 
-    if (rootH->rightH){
-        arr[top] = 1;
-        printCodes(rootH->rightH, arr, top + 1);
+    if (rootH->rightH) {
+        array[top] = 1;
+        printCodes(rootH->rightH, array, top + 1);
     }
 
-    if (!rootH->leftH && !rootH->rightH){
+    if (!rootH->leftH && !rootH->rightH) {
 
         cout << rootH->keyHuff->word << " ";
 
-        for (int i = 0; i < top; i++) 
-            cout << arr[i];
-        
+        for (int i = 0; i < top; i++)
+            cout << array[i];
+
         cout << endl;
     }
 }
 
-void HuffmanCodes(vector<WordInfo>& heap){
+void HuffmanCodes(vector<WordInfo> &heap) {
 
-    priority_queue<Huffman*, vector<Huffman*>, Compare> huff;
+    auto startH = chrono::steady_clock::now();
 
-    for (const WordInfo& wordInfo : heap) {
-        Huffman* newNode = new Huffman(new WordInfo(wordInfo));
+    priority_queue<Huffman *, vector<Huffman *>, Compare> huff;
+
+    for (const WordInfo &wordInfo : heap) {
+        Huffman *newNode = new Huffman(new WordInfo(wordInfo));
         huff.push(newNode);
     }
 
-   Huffman* rootH = generateHuffman(huff);
+    Huffman *rootH = generateHuffman(huff);
 
-   int arr[MAX], top = 0;
+    int array[MAX], top = 0;
 
-   //printCodes(rootH, arr, top);
-   outHuff(rootH, arr, top);
-   clearHuffmanTree(rootH);
+    //printCodes(rootH, array, top);
+    outHuff(rootH, array, top);
+    clearHuffmanTree(rootH);
+    auto endH = chrono::steady_clock::now();
+    cout << "\nTEMPO HUFFMAN: " << chrono::duration_cast<chrono::nanoseconds>(endH - startH).count() << " ns" << endl << endl;
 }
 
-void printPriorityQueue(priority_queue<Huffman*, vector<Huffman*>, Compare>& huff){
+void printPriorityQueue(priority_queue<Huffman *, vector<Huffman *>, Compare> &huff) {
 
     cout << "\nPriority Queue: ";
-    priority_queue<Huffman*, vector<Huffman*>, Compare> temphuff = huff;
+    priority_queue<Huffman *, vector<Huffman *>, Compare> temphuff = huff;
 
     while (!temphuff.empty()) {
         cout << temphuff.top()->keyHuff->word << "(" << temphuff.top()->keyHuff->occurrences << ") ";
@@ -77,7 +81,7 @@ void printPriorityQueue(priority_queue<Huffman*, vector<Huffman*>, Compare>& huf
     cout << endl << endl;
 }
 
-void clearHuffmanTree(Huffman* rootH){
+void clearHuffmanTree(Huffman *rootH) {
 
     if (rootH) {
         clearHuffmanTree(rootH->leftH);
@@ -86,29 +90,29 @@ void clearHuffmanTree(Huffman* rootH){
     }
 }
 
-void outHuffPrint(Huffman* rootH, int arr[], int top, ofstream& outT){
+void outHuffPrint(Huffman *rootH, int array[], int top, ofstream &outT) {
 
     if (rootH->leftH) {
-        arr[top] = 0;
-        outHuffPrint(rootH->leftH, arr, top + 1, outT); 
+        array[top] = 0;
+        outHuffPrint(rootH->leftH, array, top + 1, outT);
     }
 
-    if (rootH->rightH){
-        arr[top] = 1;
-        outHuffPrint(rootH->rightH, arr, top + 1, outT);
+    if (rootH->rightH) {
+        array[top] = 1;
+        outHuffPrint(rootH->rightH, array, top + 1, outT);
     }
 
-    if (!rootH->leftH && !rootH->rightH){
+    if (!rootH->leftH && !rootH->rightH) {
 
         outT << rootH->keyHuff->word << " ";
 
-        for (int i = 0; i < top; i++) 
-            outT << arr[i];
-           outT << ", ";
+        for (int i = 0; i < top; i++)
+            outT << array[i];
+        outT << ", ";
     }
 }
 
-void outHuff(Huffman* rootH, int arr[], int top){
+void outHuff(Huffman *rootH, int array[], int top) {
 
     if (rootH == nullptr) return;
 
@@ -118,7 +122,7 @@ void outHuff(Huffman* rootH, int arr[], int top){
     outT << endl << "HUFFMAN" << endl;
     outT << "[ ";
 
-    outHuffPrint(rootH, arr, top, outT);
+    outHuffPrint(rootH, array, top, outT);
 
     outT << "]" << endl << endl;
 

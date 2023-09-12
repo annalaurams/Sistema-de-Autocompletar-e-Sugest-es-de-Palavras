@@ -1,15 +1,13 @@
 #include "./include/tree.hpp"
 #include "./include/document.hpp"
-#include <chrono>
+
 
 using namespace std;
 using namespace std::chrono;
 
 int main() {
 
-
-    clock_t startTime, endTime;
-    startTime = clock();
+    auto start = chrono::steady_clock::now();
 
     unordered_map<string, WordInfo> glossaryStopWords;
 
@@ -19,7 +17,7 @@ int main() {
     ifstream fileStopWords;
     fileStopWords.open("data/stopwords.txt", ios::in);
 
-    while (fileStopWords){
+    while (fileStopWords) {
         getline(fileStopWords, s, '\n');
         addStopWord(glossaryStopWords, s);
     }
@@ -29,14 +27,10 @@ int main() {
     search(lenght, i, glossaryStopWords);
     outEnd();
 
+    auto end = chrono::steady_clock::now();
 
 
- 
-    endTime = clock();
-    clock_t elapsedTime = endTime - startTime;
-    double elapsedTimeMs = ((double)elapsedTime/CLOCKS_PER_SEC)*1000;
-    cout << "\nTEMPO DE EXECUÇÃO TIME.H: " << elapsedTimeMs << " ms " << endl;
-    cout << endl;
+    cout << "\nTEMPO DE EXECUÇÃO TOTAL DO PROGRAMA: " << chrono::duration_cast<chrono::nanoseconds>(end - start).count() << " ns" << endl << endl;
 
     return 0;
 }

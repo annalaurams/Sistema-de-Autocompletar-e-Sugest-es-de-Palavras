@@ -1,17 +1,13 @@
-#ifndef topk_HPP
-#define topk_HPP
+#ifndef document_hpp
+#define document_hpp
 
 
 #include <ctype.h>
-
 #include <filesystem>
 #include <time.h>
 #include <list>
 
-
 #include <unordered_map>
-
-
 #include "shared.hpp"
 #include "avl.hpp"
 

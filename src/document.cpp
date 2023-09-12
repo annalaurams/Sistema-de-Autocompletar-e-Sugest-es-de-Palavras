@@ -55,20 +55,6 @@ void processingFiles(unordered_map<string, WordInfo> &glossary, string &text) {
 
 void fileReading(char c, string &str, unordered_map<string, WordInfo> &glossary) {
 
-  // for (auto x : { ' ', '\n', '.', '!', '?', ',', ':', ';', '[', ']', '(', ')', '+', '"', '/', '\x9D' }) {
-
-  //   if (c == x) {
-  //     cases(str, glossary);
-  //     break;
-  //   } else {
-  //     if (str == "--" || str == "^" || str == " — " || str == " —" || str == "—" || str == "”" || str == "“" || str == "-”" || str == "——")
-  //       str = "";
-
-  //     if ((c != '-') && (c != '"') && (c != '\xE2') && (c != '\x80') && (c != '\x9D') && (c != '\x9C') && (c != '\x94'))
-  //       str += tolower(c);
-  //   }
-  // }
-
   switch (c) {
 
   case ' ':
@@ -308,19 +294,18 @@ void search(int &lenght, int i, unordered_map<string, WordInfo> &glossaryStopWor
         //printHeap(heap);
         //cout << "\n\n\tÁRVORE\n\n";
         binaryTree(heap, root);
-        // cout << "\n\n\tAVL\n\n";
+        //cout << "\n\n\tAVL\n\n";
         avl(heap);
-        //HuffmanCodes(heap);
+        //cout << "\n\n\tHUFFMAN\n\n";
+        HuffmanCodes(heap);
 
         Frequy = 0;
       }
-
     }
     glossary.clear();
     aux_heap.clear();
     heap.clear();
   }
-
 }
 
 void outTheme(string &aux) {
