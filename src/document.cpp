@@ -129,7 +129,7 @@ void fileReading(char c, string &str, unordered_map<string, WordInfo> &glossary)
 
     break;
   }
-  
+
 }
 
 void removeErro(unordered_map<string, WordInfo> &glossary) {
@@ -272,6 +272,8 @@ void search(int &lenght, int i, unordered_map<string, WordInfo> &glossaryStopWor
 
     string aux = name;
 
+    cout << "\n\nTEXTO: " << aux << endl;
+
     processingFiles(glossary, aux);
 
     existentWord(glossary, glossaryStopWords);
@@ -279,16 +281,19 @@ void search(int &lenght, int i, unordered_map<string, WordInfo> &glossaryStopWor
     aux.erase(0, 5);
     outTheme(aux);
 
-    insertK(glossary, aux_heap, lenght, i);
 
     for (string palavra : wordInput) {
 
       string input = palavra;
 
+
+
       if (existGlossary(glossary, input)) {
 
+    insertK(glossary, aux_heap, lenght, i);
         existsInHeap(heap, input, lenght, i, aux_heap);
 
+        cout << "\n\nINPUT: " << input << endl;
         output(input);
 
         //printHeap(heap);
