@@ -99,9 +99,10 @@ De modo geral, para cada texto é buscado uma lista de palavras e para cada uma 
 - Árvore binária e avl que mostram a palavra e sua ocorrência e a codificação de huffman que mostra a palavra e seu código, correspondente a esse texto.
 Se a palavra não estiver no texto, nada sobre ela será mostrado no output.
 - As 3 estruturas mencionadas são impressas no formato "pós ordem".
+
 ## 💻Metodologia  
 
-### heap
+### Heap
 O algoritmo implementa uma min-heap, ou seja, cada nó tem um valor menor ou igual ao valor de seus filhos, mantendo o menor elemento na primeira posição. Os valores a serem armazenados nessa estrutura são as maiores ocorrências de palavras no texto. Dessa forma. é coletado as K palavras com maiores ocorrências. Para cada palavra presenteno texto, será criado um heap.
 
 Custo Computacional: <br>
@@ -233,6 +234,7 @@ Para este teste, foi feito a construção para um texto, no caso, o texto ```fil
 
 - A diferença é significamente pequena, mas para uma grande entrada de dados, algumas especificidades da estrutura podem ser determinantes no desempenho do programa.
 <br>
+
  ## 🕜Tempo de execução 
 
 A contagem foi feita pelas ferramentas disponibilizadas pela bibioteca ```chrono```. <br/>
