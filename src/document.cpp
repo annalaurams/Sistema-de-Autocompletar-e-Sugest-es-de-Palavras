@@ -194,6 +194,7 @@ void printGlossary(unordered_map<string, WordInfo> &glossary) {
   }
 }
 
+// salva o nome dos arquivos em uma lista
 
 void nameFile(list<string> &nameFiles) {
 
@@ -205,6 +206,7 @@ void nameFile(list<string> &nameFiles) {
     nameFiles.push_back(text);
   }
 }
+// salva todas as palavras de busca em uma lista
 
 void inputFile(string &input, list<string> &wordInput) {
 
@@ -222,17 +224,9 @@ void inputFile(string &input, list<string> &wordInput) {
   }
 
   inputFile.close();
-
-  list<string> q = wordInput;
-
-  //   cout << "\nTamanho Fila: " << wordInput.size()  << endl;
-
-  //   while (!q.empty()) {
-  //         cout << q.front() << endl; // Imprime o elemento da frente da fila
-  //         q.pop();
-  //     }
-      //cout << endl;
 }
+
+// verifica se a palavra existe no glossário
 
 bool existGlossary(unordered_map<string, WordInfo> &glossary, string &input) {
 
@@ -248,6 +242,7 @@ bool existGlossary(unordered_map<string, WordInfo> &glossary, string &input) {
   return false; // Palavra não encontrada
 }
 
+// coloca em ordem as funções para o funcionamento do programa
 
 void search(int &lenght, int i, unordered_map<string, WordInfo> &glossaryStopWords) {
 
@@ -272,7 +267,7 @@ void search(int &lenght, int i, unordered_map<string, WordInfo> &glossaryStopWor
 
     string aux = name;
 
-    cout << "\n\nTEXTO: " << aux << endl;
+    //cout << "\n\nTEXTO: " << aux << endl;
 
     processingFiles(glossary, aux);
 
@@ -281,37 +276,39 @@ void search(int &lenght, int i, unordered_map<string, WordInfo> &glossaryStopWor
     aux.erase(0, 5);
     outTheme(aux);
 
-
     for (string palavra : wordInput) {
 
       string input = palavra;
 
-
-
       if (existGlossary(glossary, input)) {
 
-    insertK(glossary, aux_heap, lenght, i);
+        insertK(glossary, aux_heap, lenght, i);
         existsInHeap(heap, input, lenght, i, aux_heap);
 
-        cout << "\n\nINPUT: " << input << endl;
         output(input);
 
         //printHeap(heap);
+
         //cout << "\n\n\tÁRVORE\n\n";
         binaryTree(heap, root);
+
         //cout << "\n\n\tAVL\n\n";
         avl(heap);
+
         //cout << "\n\n\tHUFFMAN\n\n";
         HuffmanCodes(heap);
 
         Frequy = 0;
       }
+
+      aux_heap.clear();
+      heap.clear();
     }
     glossary.clear();
-    aux_heap.clear();
-    heap.clear();
   }
 }
+
+// funções de output
 
 void outTheme(string &aux) {
   ofstream outFile("output.txt", ios::app);

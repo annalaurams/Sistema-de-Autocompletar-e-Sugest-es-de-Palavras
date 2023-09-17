@@ -1,7 +1,6 @@
 #ifndef document_hpp
 #define document_hpp
 
-
 #include <ctype.h>
 #include <filesystem>
 #include <time.h>

@@ -21,6 +21,8 @@ void createNo(No *&newNo, WordInfo *wordInfo) {
   newNo->right = nullptr;
 }
 
+// insere os elementos na árvore
+
 void insertTree(No *&no, WordInfo *wordInfo) {
 
   if (no == nullptr) {
@@ -38,6 +40,8 @@ void insertTree(No *&no, WordInfo *wordInfo) {
     insertTree(no->left, wordInfo);
 }
 
+// esvazia a árvore
+
 void deleteTree(No *&node) {
 
   if (node == nullptr) return;
@@ -51,6 +55,8 @@ void deleteTree(No *&node) {
   node = nullptr;
 }
 
+// imprimi a árvore
+
 void printTree(No *root) {
 
   if (!(root == NULL)) {
@@ -59,6 +65,8 @@ void printTree(No *root) {
     printTree(root->right);
   }
 }
+
+// funções de output
 
 void outPrintTree(No *root, ofstream &outT) {
 
@@ -90,11 +98,10 @@ void binaryTree(vector<WordInfo> &heap, No *&root) {
   auto startT = chrono::steady_clock::now();
 
   insert(heap, root);
-  //printTree(root);
   outTree(root);
   deleteTree(root);
   
   auto endT = chrono::steady_clock::now();
-  cout << "\nTEMPO TREE: " << chrono::duration_cast<chrono::nanoseconds>(endT - startT).count() << " ns" << endl << endl;
+ // cout << "\nTEMPO TREE: " << chrono::duration_cast<chrono::nanoseconds>(endT - startT).count() << " ns" << endl << endl;
 }
 

@@ -17,7 +17,6 @@ typedef struct AVL{
 
 int height(AVL* rootAvl);
 int max(int a, int b);
-//AVL* newNode(WordInfo data);
 AVL* rightRotate(AVL* y);
 AVL* leftRotate(AVL* x);
 int getBalance(AVL* N);
@@ -28,13 +27,7 @@ void removeAllAVL(AVL *&t);
 void avl(vector<WordInfo>heap);
 
 void outPrintAVL(AVL *rootAVL, ofstream& outT);
-
 void outAVL(AVL* rootAVL);
-
-void outTheme(string &aux);
-void output(string &firstWord);
-void outputCreate();
-void outEnd();
 
 
 #endif

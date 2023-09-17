@@ -1,7 +1,6 @@
 #include "./include/tree.hpp"
 #include "./include/document.hpp"
 
-
 using namespace std;
 using namespace std::chrono;
 
@@ -29,8 +28,8 @@ int main() {
 
     auto end = chrono::steady_clock::now();
 
-
-    cout << "\nTEMPO DE EXECUÇÃO TOTAL DO PROGRAMA: " << chrono::duration_cast<chrono::nanoseconds>(end - start).count() << " ns" << endl << endl;
+    cout << endl <<  "TEMPO DE EXECUÇÃO TOTAL DO PROGRAMA: "
+        << chrono::duration_cast<chrono::milliseconds>(end - start).count() << " ms" << endl << endl;
 
     return 0;
 }

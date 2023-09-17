@@ -23,8 +23,6 @@ public:
     }
 };
 
-// Huffman
-
 void HuffmanCodes(vector<WordInfo>& heap) ;
 Huffman* generateHuffman(priority_queue<Huffman*, vector<Huffman*>, Compare>& huff);
 void printPriorityQueue(priority_queue<Huffman*, vector<Huffman*>, Compare>& huff);
@@ -33,8 +31,6 @@ void clearHuffmanTree(Huffman* rootH);
 
 void outHuffPrint(Huffman* rootH, int array[], int top, ofstream& outT);
 void outHuff(Huffman* rootH, int array[], int top);
-
-
 
 
 #endif

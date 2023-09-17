@@ -2,11 +2,12 @@
 
 // HUFFMAN
 
+// soma os elementos e insere de volta na fila
+
 Huffman *generateHuffman(priority_queue<Huffman *, vector<Huffman *>, Compare> &huff) {
 
     while (huff.size() != 1) {
 
-        //printPriorityQueue(huff);
         Huffman *leftH = huff.top();
         huff.pop();
 
@@ -23,6 +24,8 @@ Huffman *generateHuffman(priority_queue<Huffman *, vector<Huffman *>, Compare> &
 
     return huff.top();
 }
+
+// imprimi as palavras e seus respectivos códigos
 
 void printCodes(Huffman *rootH, int array[], int top) {
 
@@ -62,12 +65,15 @@ void HuffmanCodes(vector<WordInfo> &heap) {
 
     int array[MAX], top = 0;
 
-    //printCodes(rootH, array, top);
+   //printCodes(rootH, array, top);
     outHuff(rootH, array, top);
     clearHuffmanTree(rootH);
+
     auto endH = chrono::steady_clock::now();
-    cout << "\nTEMPO HUFFMAN: " << chrono::duration_cast<chrono::nanoseconds>(endH - startH).count() << " ns" << endl << endl;
+    //cout << "\nTEMPO HUFFMAN: " << chrono::duration_cast<chrono::nanoseconds>(endH - startH).count() << " ns" << endl << endl;
 }
+
+// imprimi a fila
 
 void printPriorityQueue(priority_queue<Huffman *, vector<Huffman *>, Compare> &huff) {
 
@@ -81,6 +87,8 @@ void printPriorityQueue(priority_queue<Huffman *, vector<Huffman *>, Compare> &h
     cout << endl << endl;
 }
 
+// esvazia a árvore
+
 void clearHuffmanTree(Huffman *rootH) {
 
     if (rootH) {
@@ -89,6 +97,8 @@ void clearHuffmanTree(Huffman *rootH) {
         delete rootH;
     }
 }
+
+// funções de output
 
 void outHuffPrint(Huffman *rootH, int array[], int top, ofstream &outT) {
 

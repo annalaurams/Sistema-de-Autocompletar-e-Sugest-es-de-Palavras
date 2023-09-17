@@ -6,65 +6,65 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ educação: 134 formação: 134 modo: 134 condições: 134 sistema: 134 geral: 134 importância: 134 importante: 134 metas: 199 política: 198 atual: 201 assim: 201 melhoria: 201 sentido: 200 a: 3068 político: 400 políticas: 267 saúde: 201 eleitores: 199 impacto: 134 ]
+[ educação: 134 formação: 134 condições: 134 modo: 134 importância: 134 geral: 134 importante: 134 podemos: 134 impacto: 134 metas: 199 eleitores: 199 saúde: 201 melhoria: 201 atual: 201 políticas: 267 político: 400 assim: 201 sentido: 200 política: 198 segurança: 134 ]
 
 AVL
-[ educação: 134 formação: 134 modo: 134 sistema: 134 importância: 134 geral: 134 condições: 134 impacto: 134 metas: 199 eleitores: 199 política: 198 atual: 201 assim: 201 saúde: 201 a: 3068 político: 400 políticas: 267 melhoria: 201 sentido: 200 importante: 134 ]
+[ educação: 134 formação: 134 modo: 134 condições: 134 geral: 134 importância: 134 podemos: 134 segurança: 134 impacto: 134 importante: 134 metas: 199 eleitores: 199 saúde: 201 melhoria: 201 sentido: 200 políticas: 267 político: 400 assim: 201 atual: 201 política: 198 ]
 
 HUFFMAN
-[ a 0, condições 10000, política 10001, eleitores 10010, metas 10011, político 1010, sentido 10110, saúde 10111, atual 11000, assim 11001, melhoria 11010, políticas 11011, impacto 111000, importância 111001, educação 111010, geral 111011, modo 111100, sistema 111101, formação 111110, importante 111111, ]
+[ política 0000, metas 0001, eleitores 0010, sentido 0011, político 010, assim 0110, saúde 0111, melhoria 1000, atual 1001, políticas 1010, segurança 10110, podemos 10111, importante 11000, condições 11001, modo 11010, importância 11011, formação 11100, impacto 11101, geral 11110, educação 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             assim        | FREQUÊNCIA               201
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ educação: 134 formação: 134 modo: 134 condições: 134 sistema: 134 geral: 134 importância: 134 importante: 134 política: 198 metas: 199 atual: 201 melhoria: 201 sentido: 200 a: 3068 político: 400 políticas: 267 saúde: 201 eleitores: 199 processo: 198 impacto: 134 ]
+[ educação: 134 formação: 134 condições: 134 modo: 134 importância: 134 geral: 134 importante: 134 podemos: 134 impacto: 134 política: 198 metas: 199 eleitores: 199 saúde: 201 melhoria: 201 políticas: 267 político: 400 atual: 201 sentido: 200 processo: 198 segurança: 134 ]
 
 AVL
-[ educação: 134 formação: 134 modo: 134 sistema: 134 importância: 134 geral: 134 condições: 134 política: 198 impacto: 134 metas: 199 eleitores: 199 processo: 198 atual: 201 melhoria: 201 a: 3068 político: 400 políticas: 267 saúde: 201 sentido: 200 importante: 134 ]
+[ educação: 134 formação: 134 modo: 134 condições: 134 geral: 134 importância: 134 podemos: 134 política: 198 segurança: 134 impacto: 134 importante: 134 metas: 199 eleitores: 199 saúde: 201 sentido: 200 políticas: 267 político: 400 atual: 201 melhoria: 201 processo: 198 ]
 
 HUFFMAN
-[ a 0, formação 10000, política 10001, processo 10010, eleitores 10011, metas 10100, sentido 10101, político 1011, atual 11000, melhoria 11001, saúde 11010, políticas 11011, educação 111000, importante 111001, geral 111010, condições 111011, impacto 111100, importância 111101, sistema 111110, modo 111111, ]
+[ política 0000, processo 0001, metas 0010, eleitores 0011, político 010, sentido 0110, melhoria 0111, atual 1000, saúde 1001, políticas 1010, segurança 10110, podemos 10111, importante 11000, formação 11001, modo 11010, educação 11011, importância 11100, impacto 11101, geral 11110, condições 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA        políticas        | FREQUÊNCIA               267
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ educação: 134 formação: 134 modo: 134 condições: 134 sistema: 134 geral: 134 importância: 134 importante: 134 política: 198 metas: 199 atual: 201 assim: 201 melhoria: 201 sentido: 200 a: 3068 político: 400 saúde: 201 eleitores: 199 processo: 198 impacto: 134 ]
+[ educação: 134 formação: 134 condições: 134 modo: 134 importância: 134 geral: 134 importante: 134 podemos: 134 impacto: 134 política: 198 metas: 199 eleitores: 199 saúde: 201 melhoria: 201 atual: 201 político: 400 assim: 201 sentido: 200 processo: 198 segurança: 134 ]
 
 AVL
-[ educação: 134 formação: 134 modo: 134 sistema: 134 importância: 134 geral: 134 condições: 134 política: 198 impacto: 134 metas: 199 eleitores: 199 processo: 198 atual: 201 assim: 201 a: 3068 político: 400 saúde: 201 melhoria: 201 sentido: 200 importante: 134 ]
+[ educação: 134 formação: 134 modo: 134 condições: 134 geral: 134 importância: 134 podemos: 134 política: 198 segurança: 134 impacto: 134 importante: 134 metas: 199 eleitores: 199 saúde: 201 melhoria: 201 sentido: 200 político: 400 assim: 201 atual: 201 processo: 198 ]
 
 HUFFMAN
-[ a 0, formação 10000, política 10001, processo 10010, eleitores 10011, metas 10100, sentido 10101, político 1011, melhoria 11000, saúde 11001, atual 11010, assim 11011, impacto 111000, importância 111001, geral 111010, condições 111011, sistema 111100, modo 111101, educação 111110, importante 111111, ]
+[ política 0000, processo 0001, metas 0010, eleitores 0011, político 010, sentido 0110, atual 0111, assim 1000, saúde 1001, melhoria 1010, segurança 10110, podemos 10111, modo 11000, educação 11001, importante 11010, formação 11011, importância 11100, impacto 11101, geral 11110, condições 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA         político        | FREQUÊNCIA               400
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ educação: 134 formação: 134 modo: 134 condições: 134 sistema: 134 geral: 134 importância: 134 importante: 134 política: 198 metas: 199 atual: 201 assim: 201 melhoria: 201 sentido: 200 a: 3068 políticas: 267 saúde: 201 eleitores: 199 processo: 198 impacto: 134 ]
+[ educação: 134 formação: 134 condições: 134 modo: 134 importância: 134 geral: 134 importante: 134 podemos: 134 impacto: 134 política: 198 metas: 199 eleitores: 199 saúde: 201 melhoria: 201 atual: 201 políticas: 267 assim: 201 sentido: 200 processo: 198 segurança: 134 ]
 
 AVL
-[ educação: 134 formação: 134 modo: 134 sistema: 134 importância: 134 geral: 134 condições: 134 política: 198 impacto: 134 metas: 199 eleitores: 199 processo: 198 atual: 201 assim: 201 a: 3068 políticas: 267 saúde: 201 melhoria: 201 sentido: 200 importante: 134 ]
+[ educação: 134 formação: 134 modo: 134 condições: 134 geral: 134 importância: 134 podemos: 134 política: 198 segurança: 134 impacto: 134 importante: 134 metas: 199 eleitores: 199 saúde: 201 melhoria: 201 sentido: 200 políticas: 267 assim: 201 atual: 201 processo: 198 ]
 
 HUFFMAN
-[ a 0, impacto 10000, importância 10001, formação 10010, política 10011, processo 10100, eleitores 10101, metas 10110, sentido 10111, melhoria 11000, saúde 11001, atual 11010, assim 11011, políticas 11100, geral 111010, condições 111011, sistema 111100, modo 111101, educação 111110, importante 111111, ]
+[ geral 0000, condições 0001, política 0010, processo 0011, metas 0100, eleitores 0101, sentido 0110, atual 0111, assim 1000, saúde 1001, melhoria 1010, políticas 1011, importante 11000, formação 11001, importância 11010, impacto 11011, segurança 11100, podemos 11101, modo 11110, educação 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA        segurança        | FREQUÊNCIA               134
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ educação: 134 formação: 134 modo: 134 condições: 134 sistema: 134 geral: 134 importância: 134 política: 198 metas: 199 atual: 201 assim: 201 melhoria: 201 sentido: 200 a: 3068 político: 400 políticas: 267 saúde: 201 eleitores: 199 processo: 198 importante: 134 ]
+[ educação: 134 formação: 134 condições: 134 modo: 134 importância: 134 geral: 134 importante: 134 podemos: 134 política: 198 metas: 199 eleitores: 199 saúde: 201 melhoria: 201 atual: 201 políticas: 267 político: 400 assim: 201 sentido: 200 processo: 198 impacto: 134 ]
 
 AVL
-[ educação: 134 formação: 134 modo: 134 sistema: 134 importância: 134 geral: 134 condições: 134 política: 198 metas: 199 processo: 198 eleitores: 199 atual: 201 assim: 201 saúde: 201 a: 3068 político: 400 políticas: 267 melhoria: 201 sentido: 200 importante: 134 ]
+[ educação: 134 formação: 134 condições: 134 importância: 134 importante: 134 geral: 134 modo: 134 política: 198 impacto: 134 metas: 199 eleitores: 199 processo: 198 saúde: 201 melhoria: 201 políticas: 267 político: 400 assim: 201 atual: 201 sentido: 200 podemos: 134 ]
 
 HUFFMAN
-[ a 0, processo 10000, política 10001, eleitores 10010, metas 10011, político 1010, sentido 10110, saúde 10111, atual 11000, assim 11001, melhoria 11010, políticas 11011, modo 111000, formação 111001, importância 111010, educação 111011, importante 111100, sistema 111101, geral 111110, condições 111111, ]
+[ política 0000, eleitores 0001, metas 0010, sentido 0011, político 010, assim 0110, melhoria 0111, saúde 1000, atual 1001, políticas 1010, educação 10110, geral 10111, modo 11000, formação 11001, impacto 11010, importante 11011, podemos 11100, importância 11101, condições 11110, processo 11111, ]
 
 ================================================================================================================================================================================================================================================================================================================================
 > TEXTO         ti2.txt
@@ -74,91 +74,91 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ rede: 134 serviços: 134 problemas: 134 impacto: 199 tempo: 199 novas: 199 desenvolvimento: 199 hardware: 200 melhor: 201 aumento: 201 ti: 201 dados: 201 assim: 201 a: 2498 utilização: 400 segurança: 268 implantação: 267 informações: 200 sistema: 199 sentido: 134 ]
+[ rede: 134 serviços: 134 sentido: 134 problemas: 134 desenvolvimento: 199 impacto: 199 tempo: 199 novas: 199 informações: 200 melhor: 201 aumento: 201 ti: 201 dados: 201 hardware: 200 assim: 201 utilização: 400 segurança: 268 implantação: 267 sistema: 199 pode: 134 ]
 
 AVL
-[ rede: 134 serviços: 134 problemas: 134 impacto: 199 tempo: 199 sentido: 134 desenvolvimento: 199 hardware: 200 sistema: 199 melhor: 201 aumento: 201 dados: 201 ti: 201 informações: 200 implantação: 267 a: 2498 utilização: 400 segurança: 268 assim: 201 novas: 199 ]
+[ rede: 134 serviços: 134 problemas: 134 sentido: 134 desenvolvimento: 199 impacto: 199 tempo: 199 pode: 134 informações: 200 sistema: 199 melhor: 201 aumento: 201 dados: 201 ti: 201 hardware: 200 utilização: 400 segurança: 268 implantação: 267 assim: 201 novas: 199 ]
 
 HUFFMAN
-[ a 0, impacto 10000, hardware 10001, utilização 1001, informações 10100, dados 10101, melhor 10110, aumento 10111, assim 11000, ti 11001, implantação 11010, rede 110110, problemas 110111, segurança 11100, sentido 111010, serviços 111011, tempo 111100, sistema 111101, novas 111110, desenvolvimento 111111, ]
+[ hardware 0000, informações 0001, utilização 001, ti 0100, assim 0101, dados 0110, melhor 0111, aumento 1000, implantação 1001, rede 10100, problemas 10101, pode 10110, serviços 10111, segurança 1100, sentido 11010, tempo 11011, sistema 11100, novas 11101, desenvolvimento 11110, impacto 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             assim        | FREQUÊNCIA               201
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ rede: 134 serviços: 134 problemas: 134 sentido: 134 impacto: 199 tempo: 199 novas: 199 desenvolvimento: 199 hardware: 200 melhor: 201 aumento: 201 ti: 201 dados: 201 a: 2498 utilização: 400 segurança: 268 implantação: 267 informações: 200 sistema: 199 pode: 134 ]
+[ rede: 134 serviços: 134 sentido: 134 problemas: 134 pode: 134 desenvolvimento: 199 impacto: 199 tempo: 199 novas: 199 informações: 200 melhor: 201 aumento: 201 ti: 201 dados: 201 hardware: 200 utilização: 400 segurança: 268 implantação: 267 sistema: 199 integridade: 134 ]
 
 AVL
-[ rede: 134 serviços: 134 sentido: 134 problemas: 134 impacto: 199 tempo: 199 novas: 199 pode: 134 hardware: 200 sistema: 199 melhor: 201 aumento: 201 ti: 201 informações: 200 implantação: 267 a: 2498 utilização: 400 segurança: 268 dados: 201 desenvolvimento: 199 ]
+[ rede: 134 serviços: 134 problemas: 134 sentido: 134 desenvolvimento: 199 integridade: 134 tempo: 199 impacto: 199 pode: 134 informações: 200 sistema: 199 melhor: 201 aumento: 201 ti: 201 hardware: 200 utilização: 400 segurança: 268 implantação: 267 dados: 201 novas: 199 ]
 
 HUFFMAN
-[ a 0, desenvolvimento 10000, sistema 10001, hardware 10010, informações 10011, utilização 1010, dados 10110, melhor 10111, aumento 11000, ti 11001, implantação 11010, pode 110110, problemas 110111, serviços 111000, rede 111001, segurança 11101, sentido 111100, novas 111101, impacto 111110, tempo 111111, ]
+[ tempo 0000, informações 0001, utilização 001, hardware 0100, dados 0101, melhor 0110, aumento 0111, ti 1000, implantação 1001, serviços 10100, rede 10101, pode 10110, sentido 10111, integridade 11000, problemas 11001, segurança 1101, sistema 11100, impacto 11101, novas 11110, desenvolvimento 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA        políticas        | FREQUÊNCIA                67
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ rede: 134 serviços: 134 problemas: 134 impacto: 199 tempo: 199 novas: 199 desenvolvimento: 199 hardware: 200 melhor: 201 aumento: 201 ti: 201 dados: 201 assim: 201 a: 2498 utilização: 400 segurança: 268 implantação: 267 informações: 200 sistema: 199 sentido: 134 ]
+[ rede: 134 serviços: 134 sentido: 134 problemas: 134 desenvolvimento: 199 impacto: 199 tempo: 199 novas: 199 informações: 200 melhor: 201 aumento: 201 ti: 201 dados: 201 hardware: 200 assim: 201 utilização: 400 segurança: 268 implantação: 267 sistema: 199 pode: 134 ]
 
 AVL
-[ rede: 134 serviços: 134 problemas: 134 impacto: 199 tempo: 199 sentido: 134 desenvolvimento: 199 hardware: 200 sistema: 199 melhor: 201 aumento: 201 dados: 201 ti: 201 informações: 200 implantação: 267 a: 2498 utilização: 400 segurança: 268 assim: 201 novas: 199 ]
+[ rede: 134 serviços: 134 problemas: 134 sentido: 134 desenvolvimento: 199 impacto: 199 tempo: 199 pode: 134 informações: 200 sistema: 199 melhor: 201 aumento: 201 dados: 201 ti: 201 hardware: 200 utilização: 400 segurança: 268 implantação: 267 assim: 201 novas: 199 ]
 
 HUFFMAN
-[ a 0, impacto 10000, hardware 10001, utilização 1001, informações 10100, dados 10101, melhor 10110, aumento 10111, assim 11000, ti 11001, implantação 11010, rede 110110, problemas 110111, segurança 11100, sentido 111010, serviços 111011, tempo 111100, sistema 111101, novas 111110, desenvolvimento 111111, ]
+[ hardware 0000, informações 0001, utilização 001, ti 0100, assim 0101, dados 0110, melhor 0111, aumento 1000, implantação 1001, rede 10100, problemas 10101, pode 10110, serviços 10111, segurança 1100, sentido 11010, tempo 11011, sistema 11100, novas 11101, desenvolvimento 11110, impacto 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA                ti        | FREQUÊNCIA               201
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ rede: 134 serviços: 134 problemas: 134 sentido: 134 impacto: 199 tempo: 199 novas: 199 desenvolvimento: 199 hardware: 200 melhor: 201 aumento: 201 dados: 201 assim: 201 a: 2498 utilização: 400 segurança: 268 implantação: 267 informações: 200 sistema: 199 pode: 134 ]
+[ rede: 134 serviços: 134 sentido: 134 problemas: 134 pode: 134 desenvolvimento: 199 impacto: 199 tempo: 199 novas: 199 informações: 200 melhor: 201 aumento: 201 dados: 201 hardware: 200 assim: 201 utilização: 400 segurança: 268 implantação: 267 sistema: 199 integridade: 134 ]
 
 AVL
-[ rede: 134 serviços: 134 sentido: 134 problemas: 134 impacto: 199 tempo: 199 novas: 199 pode: 134 hardware: 200 sistema: 199 melhor: 201 aumento: 201 dados: 201 informações: 200 implantação: 267 a: 2498 utilização: 400 segurança: 268 assim: 201 desenvolvimento: 199 ]
+[ rede: 134 serviços: 134 problemas: 134 sentido: 134 desenvolvimento: 199 integridade: 134 tempo: 199 impacto: 199 pode: 134 informações: 200 sistema: 199 melhor: 201 aumento: 201 dados: 201 hardware: 200 utilização: 400 segurança: 268 implantação: 267 assim: 201 novas: 199 ]
 
 HUFFMAN
-[ a 0, desenvolvimento 10000, sistema 10001, hardware 10010, informações 10011, utilização 1010, melhor 10110, assim 10111, aumento 11000, dados 11001, implantação 11010, serviços 110110, rede 110111, segurança 11100, pode 111010, problemas 111011, sentido 111100, novas 111101, impacto 111110, tempo 111111, ]
+[ tempo 0000, informações 0001, utilização 001, hardware 0100, assim 0101, aumento 0110, melhor 0111, dados 1000, implantação 1001, segurança 1010, integridade 10110, problemas 10111, serviços 11000, rede 11001, pode 11010, sentido 11011, sistema 11100, impacto 11101, novas 11110, desenvolvimento 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA        segurança        | FREQUÊNCIA               268
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ rede: 134 serviços: 134 problemas: 134 sentido: 134 impacto: 199 tempo: 199 novas: 199 desenvolvimento: 199 hardware: 200 melhor: 201 aumento: 201 ti: 201 dados: 201 assim: 201 a: 2498 utilização: 400 implantação: 267 informações: 200 sistema: 199 pode: 134 ]
+[ rede: 134 serviços: 134 sentido: 134 problemas: 134 pode: 134 desenvolvimento: 199 impacto: 199 tempo: 199 novas: 199 informações: 200 melhor: 201 aumento: 201 ti: 201 dados: 201 hardware: 200 assim: 201 utilização: 400 implantação: 267 sistema: 199 integridade: 134 ]
 
 AVL
-[ rede: 134 serviços: 134 sentido: 134 problemas: 134 impacto: 199 tempo: 199 novas: 199 pode: 134 hardware: 200 sistema: 199 melhor: 201 aumento: 201 ti: 201 informações: 200 assim: 201 a: 2498 utilização: 400 implantação: 267 dados: 201 desenvolvimento: 199 ]
+[ rede: 134 serviços: 134 problemas: 134 sentido: 134 desenvolvimento: 199 integridade: 134 tempo: 199 impacto: 199 pode: 134 informações: 200 sistema: 199 melhor: 201 aumento: 201 ti: 201 hardware: 200 utilização: 400 implantação: 267 assim: 201 dados: 201 novas: 199 ]
 
 HUFFMAN
-[ a 0, desenvolvimento 10000, sistema 10001, hardware 10010, informações 10011, utilização 1010, dados 10110, melhor 10111, assim 11000, aumento 11001, ti 11010, implantação 11011, pode 111000, problemas 111001, serviços 111010, rede 111011, sentido 111100, novas 111101, impacto 111110, tempo 111111, ]
+[ tempo 0000, informações 0001, utilização 001, hardware 0100, dados 0101, aumento 0110, ti 0111, melhor 1000, assim 1001, implantação 1010, integridade 10110, problemas 10111, serviços 11000, rede 11001, pode 11010, sentido 11011, sistema 11100, impacto 11101, novas 11110, desenvolvimento 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA      utilização        | FREQUÊNCIA               400
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ rede: 134 serviços: 134 problemas: 134 sentido: 134 impacto: 199 tempo: 199 novas: 199 desenvolvimento: 199 hardware: 200 melhor: 201 aumento: 201 ti: 201 dados: 201 assim: 201 a: 2498 segurança: 268 implantação: 267 informações: 200 sistema: 199 pode: 134 ]
+[ rede: 134 serviços: 134 sentido: 134 problemas: 134 pode: 134 desenvolvimento: 199 impacto: 199 tempo: 199 novas: 199 informações: 200 melhor: 201 aumento: 201 ti: 201 dados: 201 hardware: 200 assim: 201 segurança: 268 implantação: 267 sistema: 199 integridade: 134 ]
 
 AVL
-[ rede: 134 serviços: 134 sentido: 134 problemas: 134 impacto: 199 tempo: 199 novas: 199 pode: 134 hardware: 200 sistema: 199 melhor: 201 aumento: 201 ti: 201 informações: 200 assim: 201 a: 2498 segurança: 268 implantação: 267 dados: 201 desenvolvimento: 199 ]
+[ rede: 134 serviços: 134 problemas: 134 sentido: 134 desenvolvimento: 199 integridade: 134 tempo: 199 impacto: 199 pode: 134 informações: 200 sistema: 199 melhor: 201 aumento: 201 ti: 201 hardware: 200 segurança: 268 implantação: 267 assim: 201 dados: 201 novas: 199 ]
 
 HUFFMAN
-[ a 0, impacto 10000, tempo 10001, desenvolvimento 10010, sistema 10011, hardware 10100, informações 10101, aumento 10110, ti 10111, melhor 11000, assim 11001, dados 11010, implantação 11011, serviços 111000, rede 111001, segurança 11101, pode 111100, problemas 111101, sentido 111110, novas 111111, ]
+[ novas 0000, desenvolvimento 0001, tempo 0010, informações 0011, hardware 0100, ti 0101, assim 0110, aumento 0111, melhor 1000, dados 1001, implantação 1010, segurança 1011, integridade 11000, problemas 11001, serviços 11010, rede 11011, pode 11100, sentido 11101, sistema 11110, impacto 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             dados        | FREQUÊNCIA               201
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ rede: 134 serviços: 134 problemas: 134 sentido: 134 impacto: 199 tempo: 199 novas: 199 desenvolvimento: 199 hardware: 200 melhor: 201 aumento: 201 ti: 201 assim: 201 a: 2498 utilização: 400 segurança: 268 implantação: 267 informações: 200 sistema: 199 pode: 134 ]
+[ rede: 134 serviços: 134 sentido: 134 problemas: 134 pode: 134 desenvolvimento: 199 impacto: 199 tempo: 199 novas: 199 informações: 200 melhor: 201 aumento: 201 ti: 201 hardware: 200 assim: 201 utilização: 400 segurança: 268 implantação: 267 sistema: 199 integridade: 134 ]
 
 AVL
-[ rede: 134 serviços: 134 sentido: 134 problemas: 134 impacto: 199 tempo: 199 novas: 199 pode: 134 hardware: 200 sistema: 199 melhor: 201 aumento: 201 ti: 201 informações: 200 implantação: 267 a: 2498 utilização: 400 segurança: 268 assim: 201 desenvolvimento: 199 ]
+[ rede: 134 serviços: 134 problemas: 134 sentido: 134 desenvolvimento: 199 integridade: 134 tempo: 199 impacto: 199 pode: 134 informações: 200 sistema: 199 melhor: 201 aumento: 201 ti: 201 hardware: 200 utilização: 400 segurança: 268 implantação: 267 assim: 201 novas: 199 ]
 
 HUFFMAN
-[ a 0, desenvolvimento 10000, sistema 10001, hardware 10010, informações 10011, utilização 1010, melhor 10110, assim 10111, aumento 11000, ti 11001, implantação 11010, serviços 110110, rede 110111, segurança 11100, pode 111010, problemas 111011, sentido 111100, novas 111101, impacto 111110, tempo 111111, ]
+[ tempo 0000, informações 0001, utilização 001, hardware 0100, ti 0101, assim 0110, aumento 0111, melhor 1000, implantação 1001, segurança 1010, integridade 10110, problemas 10111, serviços 11000, rede 11001, pode 11010, sentido 11011, sistema 11100, impacto 11101, novas 11110, desenvolvimento 11111, ]
 
 ================================================================================================================================================================================================================================================================================================================================
 > TEXTO  filosofia2.txt
@@ -168,104 +168,104 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ É: 95 wittgenstein: 95 maneira: 95 possível: 95 pode: 96 segundo: 114 pensamento: 115 sistema: 119 priori: 144 condição: 133 sujeito: 154 mundo: 144 modo: 129 sobre: 114 a: 2868 sentido: 111 imanente: 109 princípio: 97 vista: 95 respeito: 90 ]
+[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 priori: 144 sujeito: 154 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 infinito: 89 ]
 
 AVL
-[ É: 95 respeito: 90 maneira: 95 wittgenstein: 95 pode: 96 vista: 95 imanente: 109 princípio: 97 possível: 95 segundo: 114 pensamento: 115 sistema: 119 sobre: 114 priori: 144 condição: 133 sujeito: 154 a: 2868 mundo: 144 modo: 129 sentido: 111 ]
+[ infinito: 89 possível: 95 maneira: 95 respeito: 90 pode: 96 wittgenstein: 95 vista: 95 É: 95 imanente: 109 segundo: 114 pensamento: 115 sistema: 119 sobre: 114 sentido: 111 priori: 144 sujeito: 154 mundo: 144 condição: 133 modo: 129 princípio: 97 ]
 
 HUFFMAN
-[ pode 00000, princípio 00001, imanente 00010, sentido 00011, sobre 00100, segundo 00101, pensamento 00110, sistema 00111, modo 01000, condição 01001, mundo 01010, priori 01011, sujeito 01100, respeito 011010, vista 011011, É 011100, wittgenstein 011101, maneira 011110, possível 011111, a 1, ]
+[ princípio 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, pensamento 0101, sistema 0110, modo 0111, condição 1000, priori 1001, mundo 1010, sujeito 1011, infinito 11000, respeito 11001, vista 11010, possível 11011, maneira 11100, wittgenstein 11101, É 11110, pode 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA           sujeito        | FREQUÊNCIA               154
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ É: 95 wittgenstein: 95 maneira: 95 possível: 95 pode: 96 segundo: 114 pensamento: 115 sistema: 119 priori: 144 condição: 133 teoria: 192 mundo: 144 modo: 129 sobre: 114 a: 2868 sentido: 111 imanente: 109 princípio: 97 vista: 95 respeito: 90 ]
+[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 priori: 144 teoria: 192 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 infinito: 89 ]
 
 AVL
-[ É: 95 respeito: 90 maneira: 95 wittgenstein: 95 pode: 96 vista: 95 imanente: 109 princípio: 97 possível: 95 segundo: 114 pensamento: 115 sistema: 119 sobre: 114 priori: 144 condição: 133 teoria: 192 a: 2868 mundo: 144 modo: 129 sentido: 111 ]
+[ infinito: 89 possível: 95 maneira: 95 respeito: 90 pode: 96 wittgenstein: 95 vista: 95 É: 95 imanente: 109 segundo: 114 pensamento: 115 sistema: 119 sobre: 114 sentido: 111 priori: 144 teoria: 192 mundo: 144 condição: 133 modo: 129 princípio: 97 ]
 
 HUFFMAN
-[ pode 00000, princípio 00001, imanente 00010, sentido 00011, sobre 00100, segundo 00101, pensamento 00110, sistema 00111, modo 01000, condição 01001, mundo 01010, priori 01011, respeito 011000, vista 011001, É 011010, wittgenstein 011011, maneira 011100, possível 011101, teoria 01111, a 1, ]
+[ princípio 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, pensamento 0101, sistema 0110, modo 0111, condição 1000, mundo 1001, priori 1010, infinito 10110, respeito 10111, vista 11000, possível 11001, maneira 11010, wittgenstein 11011, É 11100, pode 11101, teoria 1111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA            priori        | FREQUÊNCIA               144
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ É: 95 wittgenstein: 95 maneira: 95 possível: 95 pode: 96 segundo: 114 pensamento: 115 sistema: 119 condição: 133 sujeito: 154 teoria: 192 mundo: 144 modo: 129 sobre: 114 a: 2868 sentido: 111 imanente: 109 princípio: 97 vista: 95 respeito: 90 ]
+[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 infinito: 89 ]
 
 AVL
-[ É: 95 respeito: 90 maneira: 95 wittgenstein: 95 pode: 96 vista: 95 imanente: 109 princípio: 97 possível: 95 segundo: 114 pensamento: 115 sistema: 119 sobre: 114 condição: 133 sujeito: 154 mundo: 144 a: 2868 teoria: 192 modo: 129 sentido: 111 ]
+[ infinito: 89 possível: 95 maneira: 95 respeito: 90 pode: 96 wittgenstein: 95 vista: 95 É: 95 imanente: 109 segundo: 114 pensamento: 115 sistema: 119 sobre: 114 sentido: 111 condição: 133 sujeito: 154 teoria: 192 mundo: 144 modo: 129 princípio: 97 ]
 
 HUFFMAN
-[ pode 00000, princípio 00001, imanente 00010, sentido 00011, sobre 00100, segundo 00101, pensamento 00110, sistema 00111, modo 01000, condição 01001, mundo 01010, sujeito 01011, respeito 011000, vista 011001, É 011010, wittgenstein 011011, maneira 011100, possível 011101, teoria 01111, a 1, ]
+[ princípio 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, pensamento 0101, sistema 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, infinito 10110, respeito 10111, vista 11000, possível 11001, maneira 11010, wittgenstein 11011, É 11100, pode 11101, teoria 1111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA          processo        | FREQUÊNCIA                58
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ É: 95 wittgenstein: 95 maneira: 95 possível: 95 pode: 96 segundo: 114 pensamento: 115 sistema: 119 priori: 144 condição: 133 sujeito: 154 teoria: 192 mundo: 144 modo: 129 sobre: 114 a: 2868 sentido: 111 imanente: 109 princípio: 97 vista: 95 ]
+[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 ]
 
 AVL
-[ É: 95 wittgenstein: 95 possível: 95 maneira: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 vista: 95 pensamento: 115 sistema: 119 priori: 144 condição: 133 modo: 129 sujeito: 154 teoria: 192 a: 2868 mundo: 144 sobre: 114 ]
+[ possível: 95 maneira: 95 respeito: 90 vista: 95 É: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 modo: 129 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sobre: 114 wittgenstein: 95 ]
 
 HUFFMAN
-[ princípio 00000, imanente 00001, sentido 00010, sobre 00011, segundo 00100, pensamento 00101, sistema 00110, modo 00111, condição 01000, mundo 01001, priori 01010, sujeito 01011, wittgenstein 011000, maneira 011001, vista 011010, possível 011011, É 011100, pode 011101, teoria 01111, a 1, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, priori 1000, mundo 1001, sujeito 1010, respeito 10110, wittgenstein 10111, vista 11000, possível 11001, É 11010, maneira 11011, teoria 1110, pode 11110, princípio 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             assim        | FREQUÊNCIA                86
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ É: 95 wittgenstein: 95 maneira: 95 possível: 95 pode: 96 segundo: 114 pensamento: 115 sistema: 119 priori: 144 condição: 133 sujeito: 154 teoria: 192 mundo: 144 modo: 129 sobre: 114 a: 2868 sentido: 111 imanente: 109 princípio: 97 vista: 95 ]
+[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 ]
 
 AVL
-[ É: 95 wittgenstein: 95 possível: 95 maneira: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 vista: 95 pensamento: 115 sistema: 119 priori: 144 condição: 133 modo: 129 sujeito: 154 teoria: 192 a: 2868 mundo: 144 sobre: 114 ]
+[ possível: 95 maneira: 95 respeito: 90 vista: 95 É: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 modo: 129 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sobre: 114 wittgenstein: 95 ]
 
 HUFFMAN
-[ princípio 00000, imanente 00001, sentido 00010, sobre 00011, segundo 00100, pensamento 00101, sistema 00110, modo 00111, condição 01000, mundo 01001, priori 01010, sujeito 01011, wittgenstein 011000, maneira 011001, vista 011010, possível 011011, É 011100, pode 011101, teoria 01111, a 1, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, priori 1000, mundo 1001, sujeito 1010, respeito 10110, wittgenstein 10111, vista 11000, possível 11001, É 11010, maneira 11011, teoria 1110, pode 11110, princípio 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA         político        | FREQUÊNCIA                38
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ É: 95 wittgenstein: 95 maneira: 95 possível: 95 pode: 96 segundo: 114 pensamento: 115 sistema: 119 priori: 144 condição: 133 sujeito: 154 teoria: 192 mundo: 144 modo: 129 sobre: 114 a: 2868 sentido: 111 imanente: 109 princípio: 97 vista: 95 ]
+[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 ]
 
 AVL
-[ É: 95 wittgenstein: 95 possível: 95 maneira: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 vista: 95 pensamento: 115 sistema: 119 priori: 144 condição: 133 modo: 129 sujeito: 154 teoria: 192 a: 2868 mundo: 144 sobre: 114 ]
+[ possível: 95 maneira: 95 respeito: 90 vista: 95 É: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 modo: 129 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sobre: 114 wittgenstein: 95 ]
 
 HUFFMAN
-[ princípio 00000, imanente 00001, sentido 00010, sobre 00011, segundo 00100, pensamento 00101, sistema 00110, modo 00111, condição 01000, mundo 01001, priori 01010, sujeito 01011, wittgenstein 011000, maneira 011001, vista 011010, possível 011011, É 011100, pode 011101, teoria 01111, a 1, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, priori 1000, mundo 1001, sujeito 1010, respeito 10110, wittgenstein 10111, vista 11000, possível 11001, É 11010, maneira 11011, teoria 1110, pode 11110, princípio 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             dados        | FREQUÊNCIA                19
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ É: 95 wittgenstein: 95 maneira: 95 possível: 95 pode: 96 segundo: 114 pensamento: 115 sistema: 119 priori: 144 condição: 133 sujeito: 154 teoria: 192 mundo: 144 modo: 129 sobre: 114 a: 2868 sentido: 111 imanente: 109 princípio: 97 vista: 95 ]
+[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 ]
 
 AVL
-[ É: 95 wittgenstein: 95 possível: 95 maneira: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 vista: 95 pensamento: 115 sistema: 119 priori: 144 condição: 133 modo: 129 sujeito: 154 teoria: 192 a: 2868 mundo: 144 sobre: 114 ]
+[ possível: 95 maneira: 95 respeito: 90 vista: 95 É: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 modo: 129 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sobre: 114 wittgenstein: 95 ]
 
 HUFFMAN
-[ princípio 00000, imanente 00001, sentido 00010, sobre 00011, segundo 00100, pensamento 00101, sistema 00110, modo 00111, condição 01000, mundo 01001, priori 01010, sujeito 01011, wittgenstein 011000, maneira 011001, vista 011010, possível 011011, É 011100, pode 011101, teoria 01111, a 1, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, priori 1000, mundo 1001, sujeito 1010, respeito 10110, wittgenstein 10111, vista 11000, possível 11001, É 11010, maneira 11011, teoria 1110, pode 11110, princípio 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA         filosofia        | FREQUÊNCIA                19
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ É: 95 wittgenstein: 95 maneira: 95 possível: 95 pode: 96 segundo: 114 pensamento: 115 sistema: 119 priori: 144 condição: 133 sujeito: 154 teoria: 192 mundo: 144 modo: 129 sobre: 114 a: 2868 sentido: 111 imanente: 109 princípio: 97 vista: 95 ]
+[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 ]
 
 AVL
-[ É: 95 wittgenstein: 95 possível: 95 maneira: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 vista: 95 pensamento: 115 sistema: 119 priori: 144 condição: 133 modo: 129 sujeito: 154 teoria: 192 a: 2868 mundo: 144 sobre: 114 ]
+[ possível: 95 maneira: 95 respeito: 90 vista: 95 É: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 modo: 129 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sobre: 114 wittgenstein: 95 ]
 
 HUFFMAN
-[ princípio 00000, imanente 00001, sentido 00010, sobre 00011, segundo 00100, pensamento 00101, sistema 00110, modo 00111, condição 01000, mundo 01001, priori 01010, sujeito 01011, wittgenstein 011000, maneira 011001, vista 011010, possível 011011, É 011100, pode 011101, teoria 01111, a 1, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, priori 1000, mundo 1001, sujeito 1010, respeito 10110, wittgenstein 10111, vista 11000, possível 11001, É 11010, maneira 11011, teoria 1110, pode 11110, princípio 11111, ]
 
 ================================================================================================================================================================================================================================================================================================================================
 > TEXTO   filosofia.txt
@@ -275,104 +275,104 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ maneira: 95 wittgenstein: 95 quanto: 95 vista: 96 imanente: 104 É: 96 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 a: 2825 mundo: 134 segundo: 114 sentido: 110 pode: 95 assim: 94 virtual: 93 ]
+[ quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 princípio: 91 ]
 
 AVL
-[ virtual: 93 maneira: 95 wittgenstein: 95 assim: 94 vista: 96 pode: 95 imanente: 104 sobre: 114 sentido: 110 É: 96 quanto: 95 sistema: 115 priori: 125 pensamento: 115 condição: 134 sujeito: 158 a: 2825 mundo: 134 modo: 129 segundo: 114 ]
+[ princípio: 91 virtual: 93 quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 segundo: 114 condição: 134 sujeito: 158 mundo: 134 modo: 129 sentido: 110 pode: 95 ]
 
 HUFFMAN
-[ vista 00000, É 00001, imanente 00010, sentido 00011, sobre 00100, segundo 00101, sistema 00110, pensamento 00111, priori 01000, modo 01001, condição 01010, mundo 01011, sujeito 01100, virtual 011010, assim 011011, wittgenstein 011100, quanto 011101, pode 011110, maneira 011111, a 1, ]
+[ vista 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, sistema 0101, pensamento 0110, priori 0111, modo 1000, mundo 1001, condição 1010, sujeito 1011, princípio 11000, virtual 11001, assim 11010, pode 11011, maneira 11100, wittgenstein 11101, quanto 11110, É 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA           sujeito        | FREQUÊNCIA               158
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ maneira: 95 wittgenstein: 95 quanto: 95 vista: 96 imanente: 104 É: 96 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 a: 2825 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 assim: 94 virtual: 93 ]
+[ quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 princípio: 91 ]
 
 AVL
-[ virtual: 93 maneira: 95 wittgenstein: 95 assim: 94 vista: 96 pode: 95 imanente: 104 sobre: 114 sentido: 110 É: 96 quanto: 95 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 a: 2825 teoria: 176 mundo: 134 segundo: 114 ]
+[ princípio: 91 virtual: 93 quanto: 95 maneira: 95 assim: 94 É: 96 pode: 95 imanente: 104 vista: 96 sobre: 114 sistema: 115 priori: 125 pensamento: 115 segundo: 114 condição: 134 teoria: 176 mundo: 134 modo: 129 sentido: 110 wittgenstein: 95 ]
 
 HUFFMAN
-[ vista 00000, É 00001, imanente 00010, sentido 00011, sobre 00100, segundo 00101, sistema 00110, pensamento 00111, priori 01000, modo 01001, condição 01010, mundo 01011, teoria 01100, virtual 011010, assim 011011, pode 011100, maneira 011101, wittgenstein 011110, quanto 011111, a 1, ]
+[ É 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, pensamento 0101, sistema 0110, priori 0111, modo 1000, condição 1001, mundo 1010, teoria 1011, princípio 11000, virtual 11001, assim 11010, pode 11011, maneira 11100, wittgenstein 11101, quanto 11110, vista 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA            priori        | FREQUÊNCIA               125
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ maneira: 95 wittgenstein: 95 quanto: 95 vista: 96 imanente: 104 É: 96 sobre: 114 sistema: 115 pensamento: 115 condição: 134 modo: 129 sujeito: 158 a: 2825 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 assim: 94 virtual: 93 ]
+[ quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 pensamento: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 princípio: 91 ]
 
 AVL
-[ virtual: 93 maneira: 95 wittgenstein: 95 assim: 94 vista: 96 pode: 95 imanente: 104 sobre: 114 sentido: 110 É: 96 quanto: 95 sistema: 115 pensamento: 115 condição: 134 modo: 129 sujeito: 158 a: 2825 teoria: 176 mundo: 134 segundo: 114 ]
+[ princípio: 91 virtual: 93 quanto: 95 maneira: 95 assim: 94 É: 96 pode: 95 imanente: 104 vista: 96 sobre: 114 sistema: 115 pensamento: 115 segundo: 114 condição: 134 sujeito: 158 teoria: 176 mundo: 134 modo: 129 sentido: 110 wittgenstein: 95 ]
 
 HUFFMAN
-[ vista 00000, É 00001, imanente 00010, sentido 00011, sobre 00100, segundo 00101, sistema 00110, pensamento 00111, modo 01000, condição 01001, mundo 01010, sujeito 01011, teoria 01100, virtual 011010, assim 011011, pode 011100, maneira 011101, wittgenstein 011110, quanto 011111, a 1, ]
+[ É 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, sistema 0101, pensamento 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, teoria 1011, princípio 11000, virtual 11001, assim 11010, pode 11011, maneira 11100, wittgenstein 11101, quanto 11110, vista 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA          processo        | FREQUÊNCIA                57
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ maneira: 95 wittgenstein: 95 quanto: 95 vista: 96 imanente: 104 É: 96 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 a: 2825 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 assim: 94 ]
+[ quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 ]
 
 AVL
-[ maneira: 95 wittgenstein: 95 assim: 94 vista: 96 pode: 95 imanente: 104 sobre: 114 sentido: 110 É: 96 quanto: 95 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 a: 2825 teoria: 176 mundo: 134 segundo: 114 ]
+[ virtual: 93 quanto: 95 maneira: 95 assim: 94 É: 96 pode: 95 imanente: 104 vista: 96 wittgenstein: 95 sobre: 114 sistema: 115 priori: 125 pensamento: 115 segundo: 114 condição: 134 sujeito: 158 teoria: 176 mundo: 134 modo: 129 sentido: 110 ]
 
 HUFFMAN
-[ vista 00000, imanente 00001, sentido 00010, sobre 00011, segundo 00100, sistema 00101, pensamento 00110, priori 00111, modo 01000, condição 01001, mundo 01010, sujeito 01011, teoria 01100, assim 011010, quanto 011011, maneira 011100, pode 011101, wittgenstein 011110, É 011111, a 1, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, teoria 1011, virtual 11000, assim 11001, pode 11010, wittgenstein 11011, quanto 11100, maneira 11101, É 11110, vista 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             assim        | FREQUÊNCIA                94
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ maneira: 95 wittgenstein: 95 quanto: 95 vista: 96 imanente: 104 É: 96 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 a: 2825 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 ]
+[ quanto: 95 maneira: 95 wittgenstein: 95 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 princípio: 91 ]
 
 AVL
-[ maneira: 95 wittgenstein: 95 virtual: 93 vista: 96 pode: 95 imanente: 104 sobre: 114 sentido: 110 É: 96 quanto: 95 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 a: 2825 teoria: 176 mundo: 134 segundo: 114 ]
+[ princípio: 91 quanto: 95 maneira: 95 virtual: 93 É: 96 pode: 95 imanente: 104 vista: 96 wittgenstein: 95 sobre: 114 sistema: 115 priori: 125 pensamento: 115 segundo: 114 condição: 134 sujeito: 158 teoria: 176 mundo: 134 modo: 129 sentido: 110 ]
 
 HUFFMAN
-[ vista 00000, imanente 00001, sentido 00010, sobre 00011, segundo 00100, sistema 00101, pensamento 00110, priori 00111, modo 01000, condição 01001, mundo 01010, sujeito 01011, teoria 01100, virtual 011010, quanto 011011, maneira 011100, pode 011101, wittgenstein 011110, É 011111, a 1, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, teoria 1011, princípio 11000, virtual 11001, maneira 11010, wittgenstein 11011, pode 11100, quanto 11101, É 11110, vista 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA         político        | FREQUÊNCIA                36
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ maneira: 95 wittgenstein: 95 quanto: 95 vista: 96 imanente: 104 É: 96 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 a: 2825 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 assim: 94 ]
+[ quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 ]
 
 AVL
-[ maneira: 95 wittgenstein: 95 assim: 94 vista: 96 pode: 95 imanente: 104 sobre: 114 sentido: 110 É: 96 quanto: 95 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 a: 2825 teoria: 176 mundo: 134 segundo: 114 ]
+[ virtual: 93 quanto: 95 maneira: 95 assim: 94 É: 96 pode: 95 imanente: 104 vista: 96 wittgenstein: 95 sobre: 114 sistema: 115 priori: 125 pensamento: 115 segundo: 114 condição: 134 sujeito: 158 teoria: 176 mundo: 134 modo: 129 sentido: 110 ]
 
 HUFFMAN
-[ vista 00000, imanente 00001, sentido 00010, sobre 00011, segundo 00100, sistema 00101, pensamento 00110, priori 00111, modo 01000, condição 01001, mundo 01010, sujeito 01011, teoria 01100, assim 011010, quanto 011011, maneira 011100, pode 011101, wittgenstein 011110, É 011111, a 1, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, teoria 1011, virtual 11000, assim 11001, pode 11010, wittgenstein 11011, quanto 11100, maneira 11101, É 11110, vista 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             dados        | FREQUÊNCIA                19
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ maneira: 95 wittgenstein: 95 quanto: 95 vista: 96 imanente: 104 É: 96 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 a: 2825 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 assim: 94 ]
+[ quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 ]
 
 AVL
-[ maneira: 95 wittgenstein: 95 assim: 94 vista: 96 pode: 95 imanente: 104 sobre: 114 sentido: 110 É: 96 quanto: 95 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 a: 2825 teoria: 176 mundo: 134 segundo: 114 ]
+[ virtual: 93 quanto: 95 maneira: 95 assim: 94 É: 96 pode: 95 imanente: 104 vista: 96 wittgenstein: 95 sobre: 114 sistema: 115 priori: 125 pensamento: 115 segundo: 114 condição: 134 sujeito: 158 teoria: 176 mundo: 134 modo: 129 sentido: 110 ]
 
 HUFFMAN
-[ vista 00000, imanente 00001, sentido 00010, sobre 00011, segundo 00100, sistema 00101, pensamento 00110, priori 00111, modo 01000, condição 01001, mundo 01010, sujeito 01011, teoria 01100, assim 011010, quanto 011011, maneira 011100, pode 011101, wittgenstein 011110, É 011111, a 1, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, teoria 1011, virtual 11000, assim 11001, pode 11010, wittgenstein 11011, quanto 11100, maneira 11101, É 11110, vista 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA         filosofia        | FREQUÊNCIA                19
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ maneira: 95 wittgenstein: 95 quanto: 95 vista: 96 imanente: 104 É: 96 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 a: 2825 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 assim: 94 ]
+[ quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 ]
 
 AVL
-[ maneira: 95 wittgenstein: 95 assim: 94 vista: 96 pode: 95 imanente: 104 sobre: 114 sentido: 110 É: 96 quanto: 95 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 a: 2825 teoria: 176 mundo: 134 segundo: 114 ]
+[ virtual: 93 quanto: 95 maneira: 95 assim: 94 É: 96 pode: 95 imanente: 104 vista: 96 wittgenstein: 95 sobre: 114 sistema: 115 priori: 125 pensamento: 115 segundo: 114 condição: 134 sujeito: 158 teoria: 176 mundo: 134 modo: 129 sentido: 110 ]
 
 HUFFMAN
-[ vista 00000, imanente 00001, sentido 00010, sobre 00011, segundo 00100, sistema 00101, pensamento 00110, priori 00111, modo 01000, condição 01001, mundo 01010, sujeito 01011, teoria 01100, assim 011010, quanto 011011, maneira 011100, pode 011101, wittgenstein 011110, É 011111, a 1, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, teoria 1011, virtual 11000, assim 11001, pode 11010, wittgenstein 11011, quanto 11100, maneira 11101, É 11110, vista 11111, ]
 
 ================================================================================================================================================================================================================================================================================================================================
 > TEXTO globalizacao.txt
@@ -382,52 +382,52 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ ressaltar: 133 funcionais: 133 formação: 133 necessidade: 134 quadros: 134 importância: 134 sistema: 134 impacto: 134 informações: 134 formas: 134 podemos: 134 melhoria: 134 pode: 134 estabelecimento: 134 É: 134 assim: 199 a: 3029 sentido: 200 modo: 134 geral: 133 ]
+[ ressaltar: 133 funcionais: 133 formação: 133 geral: 133 necessidade: 134 quadros: 134 melhoria: 134 importância: 134 sistema: 134 pode: 134 informações: 134 formas: 134 podemos: 134 É: 134 estabelecimento: 134 modo: 134 assim: 199 sentido: 200 impacto: 134 condições: 133 ]
 
 AVL
-[ ressaltar: 133 funcionais: 133 formação: 133 necessidade: 134 quadros: 134 sistema: 134 importância: 134 geral: 133 formas: 134 informações: 134 impacto: 134 pode: 134 melhoria: 134 É: 134 assim: 199 a: 3029 sentido: 200 modo: 134 estabelecimento: 134 podemos: 134 ]
+[ ressaltar: 133 funcionais: 133 geral: 133 formação: 133 necessidade: 134 quadros: 134 melhoria: 134 sistema: 134 informações: 134 pode: 134 importância: 134 condições: 133 podemos: 134 estabelecimento: 134 É: 134 assim: 199 sentido: 200 impacto: 134 modo: 134 formas: 134 ]
 
 HUFFMAN
-[ informações 00000, formas 00001, modo 00010, estabelecimento 00011, sistema 00100, impacto 00101, importância 00110, necessidade 00111, quadros 01000, pode 01001, melhoria 01010, assim 01011, sentido 01100, geral 011010, formação 011011, funcionais 011100, ressaltar 011101, É 011110, podemos 011111, a 1, ]
+[ formas 0000, modo 0001, necessidade 0010, quadros 0011, pode 0100, impacto 0101, melhoria 0110, sistema 0111, estabelecimento 1000, informações 1001, assim 1010, sentido 1011, funcionais 11000, ressaltar 11001, condições 11010, geral 11011, formação 11100, importância 11101, podemos 11110, É 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             assim        | FREQUÊNCIA               199
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ ressaltar: 133 funcionais: 133 formação: 133 necessidade: 134 quadros: 134 importância: 134 sistema: 134 impacto: 134 informações: 134 formas: 134 podemos: 134 melhoria: 134 pode: 134 estabelecimento: 134 É: 134 processo: 200 a: 3029 sentido: 200 modo: 134 geral: 133 ]
+[ ressaltar: 133 funcionais: 133 formação: 133 geral: 133 necessidade: 134 quadros: 134 melhoria: 134 importância: 134 sistema: 134 pode: 134 informações: 134 formas: 134 podemos: 134 É: 134 estabelecimento: 134 modo: 134 processo: 200 sentido: 200 impacto: 134 condições: 133 ]
 
 AVL
-[ ressaltar: 133 funcionais: 133 formação: 133 necessidade: 134 quadros: 134 sistema: 134 importância: 134 geral: 133 formas: 134 informações: 134 impacto: 134 pode: 134 melhoria: 134 É: 134 processo: 200 a: 3029 sentido: 200 modo: 134 estabelecimento: 134 podemos: 134 ]
+[ ressaltar: 133 funcionais: 133 geral: 133 formação: 133 necessidade: 134 quadros: 134 melhoria: 134 sistema: 134 informações: 134 pode: 134 importância: 134 condições: 133 podemos: 134 estabelecimento: 134 É: 134 processo: 200 sentido: 200 impacto: 134 modo: 134 formas: 134 ]
 
 HUFFMAN
-[ importância 00000, pode 00001, modo 00010, estabelecimento 00011, sistema 00100, necessidade 00101, impacto 00110, quadros 00111, informações 01000, formas 01001, melhoria 01010, processo 01011, sentido 01100, geral 011010, formação 011011, funcionais 011100, ressaltar 011101, É 011110, podemos 011111, a 1, ]
+[ formas 0000, modo 0001, necessidade 0010, quadros 0011, pode 0100, impacto 0101, melhoria 0110, sistema 0111, estabelecimento 1000, informações 1001, processo 1010, sentido 1011, funcionais 11000, ressaltar 11001, condições 11010, geral 11011, formação 11100, importância 11101, podemos 11110, É 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA        políticas        | FREQUÊNCIA                67
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ ressaltar: 133 funcionais: 133 necessidade: 134 quadros: 134 importância: 134 sistema: 134 impacto: 134 informações: 134 formas: 134 podemos: 134 melhoria: 134 pode: 134 estabelecimento: 134 É: 134 processo: 200 assim: 199 a: 3029 sentido: 200 modo: 134 formação: 133 ]
+[ ressaltar: 133 funcionais: 133 formação: 133 necessidade: 134 quadros: 134 melhoria: 134 importância: 134 sistema: 134 pode: 134 informações: 134 formas: 134 podemos: 134 É: 134 impacto: 134 estabelecimento: 134 processo: 200 assim: 199 sentido: 200 modo: 134 geral: 133 ]
 
 AVL
-[ ressaltar: 133 funcionais: 133 necessidade: 134 quadros: 134 formação: 133 impacto: 134 sistema: 134 importância: 134 formas: 134 melhoria: 134 podemos: 134 estabelecimento: 134 modo: 134 processo: 200 a: 3029 sentido: 200 assim: 199 É: 134 pode: 134 informações: 134 ]
+[ ressaltar: 133 funcionais: 133 formação: 133 necessidade: 134 quadros: 134 melhoria: 134 sistema: 134 informações: 134 pode: 134 importância: 134 geral: 133 É: 134 podemos: 134 estabelecimento: 134 processo: 200 assim: 199 sentido: 200 modo: 134 impacto: 134 formas: 134 ]
 
 HUFFMAN
-[ informações 00000, estabelecimento 00001, É 00010, importância 00011, sistema 00100, necessidade 00101, quadros 00110, modo 00111, pode 01000, impacto 01001, assim 01010, sentido 01011, processo 01100, formação 011010, funcionais 011011, ressaltar 011100, melhoria 011101, formas 011110, podemos 011111, a 1, ]
+[ pode 0000, informações 0001, importância 0010, necessidade 0011, estabelecimento 0100, formas 0101, É 0110, modo 0111, podemos 1000, assim 1001, processo 1010, sentido 1011, ressaltar 11000, formação 11001, geral 11010, funcionais 11011, sistema 11100, quadros 11101, melhoria 11110, impacto 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA         político        | FREQUÊNCIA                66
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ ressaltar: 133 funcionais: 133 necessidade: 134 quadros: 134 importância: 134 sistema: 134 impacto: 134 informações: 134 formas: 134 podemos: 134 melhoria: 134 pode: 134 estabelecimento: 134 É: 134 processo: 200 assim: 199 a: 3029 sentido: 200 modo: 134 formação: 133 ]
+[ ressaltar: 133 funcionais: 133 formação: 133 necessidade: 134 quadros: 134 melhoria: 134 importância: 134 sistema: 134 pode: 134 informações: 134 formas: 134 podemos: 134 É: 134 impacto: 134 estabelecimento: 134 processo: 200 assim: 199 sentido: 200 modo: 134 geral: 133 ]
 
 AVL
-[ ressaltar: 133 funcionais: 133 necessidade: 134 quadros: 134 formação: 133 impacto: 134 sistema: 134 importância: 134 formas: 134 melhoria: 134 podemos: 134 estabelecimento: 134 modo: 134 processo: 200 a: 3029 sentido: 200 assim: 199 É: 134 pode: 134 informações: 134 ]
+[ ressaltar: 133 funcionais: 133 formação: 133 necessidade: 134 quadros: 134 melhoria: 134 sistema: 134 informações: 134 pode: 134 importância: 134 geral: 133 É: 134 podemos: 134 estabelecimento: 134 processo: 200 assim: 199 sentido: 200 modo: 134 impacto: 134 formas: 134 ]
 
 HUFFMAN
-[ informações 00000, estabelecimento 00001, É 00010, importância 00011, sistema 00100, necessidade 00101, quadros 00110, modo 00111, pode 01000, impacto 01001, assim 01010, sentido 01011, processo 01100, formação 011010, funcionais 011011, ressaltar 011100, melhoria 011101, formas 011110, podemos 011111, a 1, ]
+[ pode 0000, informações 0001, importância 0010, necessidade 0011, estabelecimento 0100, formas 0101, É 0110, modo 0111, podemos 1000, assim 1001, processo 1010, sentido 1011, ressaltar 11000, formação 11001, geral 11010, funcionais 11011, sistema 11100, quadros 11101, melhoria 11110, impacto 11111, ]
 
 ================================================================================================================================================================================================================================================================================================================================
 > TEXTO          ti.txt
@@ -437,90 +437,90 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ envolvidos: 134 podemos: 134 integridade: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 aumento: 200 ti: 201 novas: 201 informações: 201 implantação: 266 dados: 201 utilização: 399 segurança: 268 a: 2480 desenvolvimento: 200 assim: 199 necessidade: 134 ]
+[ podemos: 134 envolvidos: 134 necessidade: 134 integridade: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 aumento: 200 ti: 201 novas: 201 informações: 201 implantação: 266 dados: 201 utilização: 399 segurança: 268 desenvolvimento: 200 assim: 199 causa: 134 ]
 
 AVL
-[ envolvidos: 134 podemos: 134 integridade: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 assim: 199 necessidade: 134 ti: 201 novas: 201 desenvolvimento: 200 implantação: 266 dados: 201 utilização: 399 a: 2480 segurança: 268 informações: 201 aumento: 200 ]
+[ podemos: 134 envolvidos: 134 integridade: 134 necessidade: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 assim: 199 causa: 134 ti: 201 desenvolvimento: 200 informações: 201 novas: 201 implantação: 266 utilização: 399 segurança: 268 dados: 201 aumento: 200 ]
 
 HUFFMAN
-[ a 0, hardware 10000, desenvolvimento 10001, melhor 10010, aumento 10011, sistema 10100, impacto 10101, ti 10110, novas 10111, informações 11000, dados 11001, implantação 11010, segurança 11011, necessidade 111000, envolvidos 111001, integridade 111010, podemos 111011, assim 111100, tempo 111101, utilização 11111, ]
+[ melhor 0000, impacto 0001, desenvolvimento 0010, sistema 0011, aumento 0100, informações 0101, dados 0110, ti 0111, novas 1000, implantação 1001, segurança 1010, causa 10110, envolvidos 10111, integridade 11000, podemos 11001, necessidade 11010, assim 11011, tempo 11100, hardware 11101, utilização 1111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             assim        | FREQUÊNCIA               199
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ envolvidos: 134 podemos: 134 integridade: 134 necessidade: 134 hardware: 199 melhor: 200 sistema: 200 impacto: 200 aumento: 200 ti: 201 novas: 201 informações: 201 implantação: 266 dados: 201 utilização: 399 segurança: 268 a: 2480 desenvolvimento: 200 tempo: 199 causa: 134 ]
+[ podemos: 134 envolvidos: 134 necessidade: 134 integridade: 134 causa: 134 hardware: 199 melhor: 200 sistema: 200 impacto: 200 aumento: 200 ti: 201 novas: 201 informações: 201 implantação: 266 dados: 201 utilização: 399 segurança: 268 desenvolvimento: 200 tempo: 199 vez: 134 ]
 
 AVL
-[ envolvidos: 134 podemos: 134 integridade: 134 hardware: 199 causa: 134 melhor: 200 sistema: 200 impacto: 200 tempo: 199 necessidade: 134 ti: 201 novas: 201 desenvolvimento: 200 implantação: 266 dados: 201 utilização: 399 a: 2480 segurança: 268 informações: 201 aumento: 200 ]
+[ podemos: 134 envolvidos: 134 integridade: 134 necessidade: 134 hardware: 199 vez: 134 melhor: 200 sistema: 200 impacto: 200 tempo: 199 causa: 134 ti: 201 desenvolvimento: 200 informações: 201 novas: 201 implantação: 266 utilização: 399 segurança: 268 dados: 201 aumento: 200 ]
 
 HUFFMAN
-[ a 0, hardware 10000, desenvolvimento 10001, melhor 10010, aumento 10011, sistema 10100, impacto 10101, ti 10110, novas 10111, informações 11000, dados 11001, implantação 11010, segurança 11011, causa 111000, integridade 111001, envolvidos 111010, necessidade 111011, podemos 111100, tempo 111101, utilização 11111, ]
+[ melhor 0000, impacto 0001, desenvolvimento 0010, sistema 0011, aumento 0100, informações 0101, dados 0110, ti 0111, novas 1000, implantação 1001, podemos 10100, necessidade 10101, vez 10110, integridade 10111, segurança 1100, envolvidos 11010, causa 11011, tempo 11100, hardware 11101, utilização 1111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA        políticas        | FREQUÊNCIA                67
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ envolvidos: 134 podemos: 134 integridade: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 aumento: 200 ti: 201 novas: 201 informações: 201 implantação: 266 dados: 201 utilização: 399 segurança: 268 a: 2480 desenvolvimento: 200 assim: 199 necessidade: 134 ]
+[ podemos: 134 envolvidos: 134 necessidade: 134 integridade: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 aumento: 200 ti: 201 novas: 201 informações: 201 implantação: 266 dados: 201 utilização: 399 segurança: 268 desenvolvimento: 200 assim: 199 causa: 134 ]
 
 AVL
-[ envolvidos: 134 podemos: 134 integridade: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 assim: 199 necessidade: 134 ti: 201 novas: 201 desenvolvimento: 200 implantação: 266 dados: 201 utilização: 399 a: 2480 segurança: 268 informações: 201 aumento: 200 ]
+[ podemos: 134 envolvidos: 134 integridade: 134 necessidade: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 assim: 199 causa: 134 ti: 201 desenvolvimento: 200 informações: 201 novas: 201 implantação: 266 utilização: 399 segurança: 268 dados: 201 aumento: 200 ]
 
 HUFFMAN
-[ a 0, hardware 10000, desenvolvimento 10001, melhor 10010, aumento 10011, sistema 10100, impacto 10101, ti 10110, novas 10111, informações 11000, dados 11001, implantação 11010, segurança 11011, necessidade 111000, envolvidos 111001, integridade 111010, podemos 111011, assim 111100, tempo 111101, utilização 11111, ]
+[ melhor 0000, impacto 0001, desenvolvimento 0010, sistema 0011, aumento 0100, informações 0101, dados 0110, ti 0111, novas 1000, implantação 1001, segurança 1010, causa 10110, envolvidos 10111, integridade 11000, podemos 11001, necessidade 11010, assim 11011, tempo 11100, hardware 11101, utilização 1111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA                ti        | FREQUÊNCIA               201
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ envolvidos: 134 podemos: 134 integridade: 134 necessidade: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 aumento: 200 novas: 201 informações: 201 implantação: 266 dados: 201 utilização: 399 segurança: 268 a: 2480 desenvolvimento: 200 assim: 199 causa: 134 ]
+[ podemos: 134 envolvidos: 134 necessidade: 134 integridade: 134 causa: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 aumento: 200 novas: 201 informações: 201 implantação: 266 dados: 201 utilização: 399 segurança: 268 desenvolvimento: 200 assim: 199 vez: 134 ]
 
 AVL
-[ envolvidos: 134 podemos: 134 integridade: 134 hardware: 199 tempo: 199 causa: 134 necessidade: 134 melhor: 200 sistema: 200 aumento: 200 impacto: 200 novas: 201 informações: 201 implantação: 266 dados: 201 utilização: 399 a: 2480 segurança: 268 desenvolvimento: 200 assim: 199 ]
+[ podemos: 134 envolvidos: 134 integridade: 134 necessidade: 134 hardware: 199 tempo: 199 vez: 134 causa: 134 melhor: 200 sistema: 200 aumento: 200 impacto: 200 novas: 201 informações: 201 implantação: 266 utilização: 399 segurança: 268 dados: 201 desenvolvimento: 200 assim: 199 ]
 
 HUFFMAN
-[ a 0, utilização 1000, impacto 10010, aumento 10011, sistema 10100, melhor 10101, desenvolvimento 10110, dados 10111, novas 11000, informações 11001, implantação 11010, envolvidos 110110, necessidade 110111, segurança 11100, causa 111010, integridade 111011, podemos 111100, tempo 111101, hardware 111110, assim 111111, ]
+[ assim 0000, sistema 0001, melhor 0010, impacto 0011, aumento 0100, desenvolvimento 0101, dados 0110, novas 0111, informações 1000, implantação 1001, segurança 1010, vez 10110, integridade 10111, envolvidos 11000, causa 11001, necessidade 11010, podemos 11011, tempo 11100, hardware 11101, utilização 1111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA        segurança        | FREQUÊNCIA               268
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ envolvidos: 134 podemos: 134 integridade: 134 necessidade: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 aumento: 200 ti: 201 novas: 201 informações: 201 implantação: 266 utilização: 399 dados: 201 a: 2480 desenvolvimento: 200 assim: 199 causa: 134 ]
+[ podemos: 134 envolvidos: 134 necessidade: 134 integridade: 134 causa: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 aumento: 200 ti: 201 novas: 201 informações: 201 implantação: 266 utilização: 399 dados: 201 desenvolvimento: 200 assim: 199 vez: 134 ]
 
 AVL
-[ envolvidos: 134 podemos: 134 integridade: 134 hardware: 199 tempo: 199 causa: 134 necessidade: 134 melhor: 200 sistema: 200 aumento: 200 impacto: 200 ti: 201 novas: 201 informações: 201 implantação: 266 utilização: 399 a: 2480 dados: 201 desenvolvimento: 200 assim: 199 ]
+[ podemos: 134 envolvidos: 134 integridade: 134 necessidade: 134 hardware: 199 tempo: 199 vez: 134 causa: 134 melhor: 200 sistema: 200 aumento: 200 impacto: 200 ti: 201 novas: 201 implantação: 266 utilização: 399 dados: 201 informações: 201 desenvolvimento: 200 assim: 199 ]
 
 HUFFMAN
-[ a 0, utilização 1000, impacto 10010, aumento 10011, melhor 10100, sistema 10101, desenvolvimento 10110, informações 10111, dados 11000, ti 11001, novas 11010, implantação 11011, causa 111000, integridade 111001, envolvidos 111010, necessidade 111011, podemos 111100, tempo 111101, hardware 111110, assim 111111, ]
+[ assim 0000, melhor 0001, aumento 0010, desenvolvimento 0011, sistema 0100, impacto 0101, informações 0110, dados 0111, novas 1000, ti 1001, implantação 1010, vez 10110, integridade 10111, envolvidos 11000, causa 11001, necessidade 11010, podemos 11011, tempo 11100, hardware 11101, utilização 1111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA      utilização        | FREQUÊNCIA               399
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ envolvidos: 134 podemos: 134 integridade: 134 necessidade: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 aumento: 200 ti: 201 novas: 201 informações: 201 implantação: 266 dados: 201 segurança: 268 a: 2480 desenvolvimento: 200 assim: 199 causa: 134 ]
+[ podemos: 134 envolvidos: 134 necessidade: 134 integridade: 134 causa: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 aumento: 200 ti: 201 novas: 201 informações: 201 implantação: 266 dados: 201 segurança: 268 desenvolvimento: 200 assim: 199 vez: 134 ]
 
 AVL
-[ envolvidos: 134 podemos: 134 integridade: 134 hardware: 199 tempo: 199 causa: 134 necessidade: 134 melhor: 200 sistema: 200 aumento: 200 impacto: 200 ti: 201 novas: 201 implantação: 266 dados: 201 informações: 201 a: 2480 segurança: 268 desenvolvimento: 200 assim: 199 ]
+[ podemos: 134 envolvidos: 134 integridade: 134 necessidade: 134 hardware: 199 tempo: 199 vez: 134 causa: 134 melhor: 200 sistema: 200 aumento: 200 impacto: 200 ti: 201 novas: 201 informações: 201 implantação: 266 segurança: 268 dados: 201 desenvolvimento: 200 assim: 199 ]
 
 HUFFMAN
-[ a 0, hardware 10000, assim 10001, sistema 10010, melhor 10011, impacto 10100, aumento 10101, desenvolvimento 10110, dados 10111, ti 11000, novas 11001, informações 11010, implantação 11011, envolvidos 111000, necessidade 111001, segurança 11101, causa 111100, integridade 111101, podemos 111110, tempo 111111, ]
+[ assim 0000, sistema 0001, melhor 0010, impacto 0011, aumento 0100, desenvolvimento 0101, ti 0110, informações 0111, dados 1000, novas 1001, implantação 1010, segurança 1011, vez 11000, integridade 11001, envolvidos 11010, causa 11011, necessidade 11100, podemos 11101, tempo 11110, hardware 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             dados        | FREQUÊNCIA               201
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ envolvidos: 134 podemos: 134 integridade: 134 necessidade: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 aumento: 200 ti: 201 novas: 201 implantação: 266 informações: 201 utilização: 399 segurança: 268 a: 2480 desenvolvimento: 200 assim: 199 causa: 134 ]
+[ podemos: 134 envolvidos: 134 necessidade: 134 integridade: 134 causa: 134 hardware: 199 tempo: 199 melhor: 200 sistema: 200 impacto: 200 aumento: 200 ti: 201 novas: 201 implantação: 266 informações: 201 utilização: 399 segurança: 268 desenvolvimento: 200 assim: 199 vez: 134 ]
 
 AVL
-[ envolvidos: 134 podemos: 134 integridade: 134 hardware: 199 tempo: 199 causa: 134 necessidade: 134 melhor: 200 sistema: 200 aumento: 200 impacto: 200 ti: 201 novas: 201 implantação: 266 informações: 201 utilização: 399 a: 2480 segurança: 268 desenvolvimento: 200 assim: 199 ]
+[ podemos: 134 envolvidos: 134 integridade: 134 necessidade: 134 hardware: 199 tempo: 199 vez: 134 causa: 134 melhor: 200 sistema: 200 aumento: 200 impacto: 200 ti: 201 novas: 201 implantação: 266 utilização: 399 segurança: 268 informações: 201 desenvolvimento: 200 assim: 199 ]
 
 HUFFMAN
-[ a 0, utilização 1000, sistema 10010, melhor 10011, impacto 10100, aumento 10101, desenvolvimento 10110, informações 10111, ti 11000, novas 11001, implantação 11010, envolvidos 110110, necessidade 110111, segurança 11100, causa 111010, integridade 111011, podemos 111100, tempo 111101, hardware 111110, assim 111111, ]
+[ assim 0000, sistema 0001, melhor 0010, impacto 0011, aumento 0100, desenvolvimento 0101, informações 0110, novas 0111, ti 1000, implantação 1001, envolvidos 10100, causa 10101, necessidade 10110, podemos 10111, segurança 1100, vez 11010, integridade 11011, tempo 11100, hardware 11101, utilização 1111, ]
 
 =====================================================================================================================================================================================================================================================================================================================================

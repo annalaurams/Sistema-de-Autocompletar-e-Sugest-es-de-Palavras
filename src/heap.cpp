@@ -1,5 +1,6 @@
 #include "./include/document.hpp"
 
+// insere primeiros k elementos
 
 void insertK(unordered_map<string, WordInfo> &glossary, vector<WordInfo> &aux_heap, int &lenght, int i) {
 
@@ -22,7 +23,6 @@ void insertK(unordered_map<string, WordInfo> &glossary, vector<WordInfo> &aux_he
 
     heapify(aux_heap, lenght, i);
     finaleHash(glossary, aux_heap, lenght, i);
-    //printHeap(heap);
 }
 
 void heapify(vector<WordInfo> &aux_heap, int &lenght, int i) {
@@ -45,6 +45,8 @@ void heapify(vector<WordInfo> &aux_heap, int &lenght, int i) {
         heapify(aux_heap, lenght, aux);
     }
 }
+
+// compara o restante dos elementos da hash com o heap
 
 void finaleHash(const unordered_map<string, WordInfo> &glossary, vector<WordInfo> &aux_heap, int &lenght, int i) {
 
@@ -79,6 +81,8 @@ void printHeap(vector<WordInfo> &aux_heap) {
         cout << info.word << ": " << info.occurrences << endl;
     }
 }
+
+// verifica se a palavra exise no heap
 
 void existsInHeap(vector<WordInfo> &heap, string &input, int lenght, int i, vector<WordInfo> &aux_heap) {
 

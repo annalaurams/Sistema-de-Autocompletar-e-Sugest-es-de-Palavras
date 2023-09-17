@@ -13,7 +13,6 @@ typedef struct No{
 }No;
 
 
-// Àrvore binária
 
 void createNo(No *&newNo, WordInfo *wordInfo);
 void insertTree(No *&node, WordInfo *wordInfo);

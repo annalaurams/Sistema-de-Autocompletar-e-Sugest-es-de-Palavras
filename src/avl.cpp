@@ -4,6 +4,8 @@ int cont = 0;
 
 // AVL
 
+// calcula a altura da subárvore
+
 int height(AVL *alt) {
   if (alt == nullptr)
     return 0;
@@ -19,13 +21,14 @@ AVL *newNode(WordInfo data) {
   AVL *node = new AVL();
 
   node->keyAVL = data;
-  // node->vetor.push_back(data.word);
   node->leftAVL = nullptr;
   node->rightAVL = nullptr;
   node->height = 0;
 
   return (node);
 }
+
+// rotação simples para direita
 
 AVL *rightRotate(AVL *y) {
 
@@ -41,6 +44,8 @@ AVL *rightRotate(AVL *y) {
 
   return LR;
 }
+
+// rotação simples para esquerda
 
 
 AVL *leftRotate(AVL *y) {
@@ -58,12 +63,16 @@ AVL *leftRotate(AVL *y) {
   return LR;
 }
 
+// calcula a diferença de altura
+
 int getBalance(AVL *alt) {
 
   if (alt == nullptr) return 0;
 
   return height(alt->leftAVL) - height(alt->rightAVL);
 }
+
+// insere os elemenos na árvore
 
 AVL *insertAvl(AVL *node, WordInfo data) {
 
@@ -74,6 +83,7 @@ AVL *insertAvl(AVL *node, WordInfo data) {
   if (data.word != node->keyAVL.word) {
 
     if (data.occurrences <= node->keyAVL.occurrences) {
+
       node->leftAVL = insertAvl(node->leftAVL, data);
 
       if (height(node->leftAVL) - height(node->rightAVL) == 2) {
@@ -105,59 +115,24 @@ AVL *insertAvl(AVL *node, WordInfo data) {
   return node;
 }
 
+// imprimi a árvore
+
 void printAVL(AVL *rootAVL) {
-
-  if (rootAVL == nullptr)
-    return;
-
-  cout << endl << endl;
-
-  int height = 0;
-  queue<AVL *> x;
-  x.push(rootAVL);
-
-  while (!x.empty()) {
-    int levelSize = x.size();
-
-    while (levelSize > 0) {
-      AVL *current = x.front();
-      x.pop();
-
-      //cout << current->keyAVL.word << ": " << current->keyAVL.occurrences << " ";
-
-      cout << current->keyAVL.word << ": " << current->keyAVL.occurrences;
-
-      if (current->leftAVL != nullptr)
-        x.push(current->leftAVL);
-
-      if (current->rightAVL != nullptr)
-        x.push(current->rightAVL);
-
-      levelSize--;
-    }
-    cout << endl;
-
-    height++;
-  }
-
-  // cout << endl;
-
-}
-
-void posordemAVL(AVL *rootAVL) {
 
   if (rootAVL != nullptr) {
 
-    posordemAVL(rootAVL->leftAVL);
-    posordemAVL(rootAVL->rightAVL);
+    printAVL(rootAVL->leftAVL);
+    printAVL(rootAVL->rightAVL);
     cout << rootAVL->keyAVL.word << ": " << rootAVL->keyAVL.occurrences << endl;
   }
+
 }
 
-void avl(vector<WordInfo>heap){
+
+void avl(vector<WordInfo>heap) {
 
   auto startA = chrono::steady_clock::now();
-  
+
   AVL *rootAVL = nullptr;
 
   for (const auto &wordInfo : heap) {
@@ -170,9 +145,11 @@ void avl(vector<WordInfo>heap){
 
   removeAllAVL(rootAVL);
   auto endA = chrono::steady_clock::now();
-  cout << "\nTEMPO AVL: " << chrono::duration_cast<chrono::nanoseconds>(endA - startA).count() << " ns" << endl << endl;
+  // cout << "\nTEMPO AVL: " << chrono::duration_cast<chrono::nanoseconds>(endA - startA).count() << " ns" << endl << endl;
 
 }
+
+// esvazia a árvore
 
 void removeAllAVL(AVL *&rootAVL) {
 
@@ -183,6 +160,8 @@ void removeAllAVL(AVL *&rootAVL) {
 
   delete rootAVL;
 }
+
+// funções de output
 
 void outPrintAVL(AVL *rootAVL, ofstream &outT) {
 
