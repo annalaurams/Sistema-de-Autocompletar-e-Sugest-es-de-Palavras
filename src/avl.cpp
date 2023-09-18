@@ -131,7 +131,7 @@ void printAVL(AVL *rootAVL) {
 
 void avl(vector<WordInfo>heap) {
 
-  auto startA = chrono::steady_clock::now();
+  //auto startA = chrono::steady_clock::now();
 
   AVL *rootAVL = nullptr;
 
@@ -144,7 +144,7 @@ void avl(vector<WordInfo>heap) {
   outAVL(rootAVL);
 
   removeAllAVL(rootAVL);
-  auto endA = chrono::steady_clock::now();
+ // auto endA = chrono::steady_clock::now();
   // cout << "\nTEMPO AVL: " << chrono::duration_cast<chrono::nanoseconds>(endA - startA).count() << " ns" << endl << endl;
 
 }

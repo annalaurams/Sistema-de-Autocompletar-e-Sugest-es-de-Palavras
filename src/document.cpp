@@ -208,7 +208,7 @@ void nameFile(list<string> &nameFiles) {
 }
 // salva todas as palavras de busca em uma lista
 
-void inputFile(string &input, list<string> &wordInput) {
+void inputFile(list<string> &wordInput) {
 
   ifstream inputFile("data/input.txt");
 
@@ -259,7 +259,7 @@ void search(int &lenght, int i, unordered_map<string, WordInfo> &glossaryStopWor
   nameFile(nameFiles);
 
   list<string> wordInput;
-  inputFile(input, wordInput);
+  inputFile(wordInput);
 
   outputCreate();
 
@@ -267,7 +267,7 @@ void search(int &lenght, int i, unordered_map<string, WordInfo> &glossaryStopWor
 
     string aux = name;
 
-    cout << "\n\nTEXTO: " << aux << endl;
+    //cout << "\n\nTEXTO: " << aux << endl;
 
     processingFiles(glossary, aux);
 
@@ -286,11 +286,9 @@ void search(int &lenght, int i, unordered_map<string, WordInfo> &glossaryStopWor
         existsInHeap(heap, input, lenght, i, aux_heap);
 
         output(input);
-        cout << "\n\nPalavra: " << input << endl;
+        //cout << "\n\nPalavra: " << input << endl;
 
-        printHeap(heap);
-
-        cout << endl;
+        //printHeap(heap);
 
         //cout << "\n\n\tÁRVORE\n\n";
         binaryTree(heap, root);

@@ -4,9 +4,9 @@ Atividade para a disciplina de Algoritmos e Estruturas de Dados II. <br/>
 
 ## 🎯Objetivo 
 
-No âmbito deste projeto, o objetivo consiste em desenvolver um sistema capaz de fornecer funcionalidades de autocompletar e sugestões de palavras aos utilizadores. Para tal, baseamo-nos na estrutura de uma árvore binária como alicerce. Além disso, implementamos uma árvore AVL e o algoritmo de Huffman com o intuito de realizar comparações de desempenho.
+No âmbito deste projeto, o objetivo consiste em desenvolver um sistema capaz de fornecer funcionalidades de autocompletar e sugestões de palavras aos utilizadores. Para tal, baseamo-nos na estrutura de uma árvore binária comum como alicerce. Além disso, implementamos uma árvore AVL e o algoritmo de Huffman com o intuito de realizar comparações de desempenho.
 <br>
-O nosso objetivo principal é estabelecer uma relação entre as palavras presentes nos textos, considerando a frequência com que ocorrem, e as palavras que os utilizadores estão a pesquisar.
+O objetivo principal é estabelecer uma relação entre as palavras presentes nos textos, considerando a frequência com que ocorrem, e as palavras que os utilizadores estão a pesquisar.
 
 ## 🗂️Estrutura 
 
@@ -35,15 +35,6 @@ De fora da pasta ```include```contém os arquivos ```.cpp```
 
 - Outros arquivos contidos dentro da pasta ```data```se referem aos textos de entrada.
 
-## ✔️Resumo
-
-A abordagem consistirá em três etapas diferentes:
-
-1. **Árvore Binária Padrão**: Será implementado uma árvore binária tradicional, selecionando as palavras mais relevantes e relacionadas à pesquisa em cada texto. 
-A relevância de uma palavra será determinada por sua frequência e proximidade à palavra de pesquisa.
-2. **Codificação de Huffman**: Será implementado o código de Huffman para otimizar a árvore binária padrão. Será calculado códigos para cada palavra que posteriormente serão organizadas na estrutura da árvore com base nesses códigos.
-3. **Árvore AVL**: Será implementado uma árvore AVL e repetiremos o processo de análise.
-
 ## 📝Decisões de implementação  
 
 As especificações a seguir foram propostas para discussão do problema:
@@ -63,12 +54,7 @@ As especificações a seguir foram propostas para discussão do problema:
 <br>  
 Se estiver, o próximo comando será:
 
-- A partir de um valor K, é inserido em um vetor intitulado ```heap``` as primeiras K palavras guardadas no hash e depois são organizadas de forma que a menor ocorrência das K palavras inseridas, esteja na primeira posição do vetor.
-- Após isso para cada elemento restante no hash, é realizado comparações com o menor valor contido no heap, esses valores são as ocorrências.
-
-  1. Se a ocorrência for maior do que o menor valor da heap, o menor valor é removido, o novo elemento é inserido e a estrutura novamente organizada.
-  2. Caso contrário, o elemento deve ser ignorado, e é comparado o próximo dado até o fim do glossário.
-- No final, a heap conterá os K elementos com maiores valores (ocorrências) dentre os textos lidos. 
+- A partir de um tamanho K, é criado um vetor intitulado ```heap```  que armazena as K palavras mais ocorrentes do texto.
 
 Em seguida:
 
@@ -77,7 +63,7 @@ Em seguida:
   4. É criada a árvore AVL.
   5. É criada a árvore a partir do código de Huffman.
 
-As árvores criadas terão a mesma quantidade de elementos que o valor de ```K```e cada nó é uma posição do heap, com palavra e ocorrência que foram armazenadas nele.
+As árvores criadas terão a mesma quantidade de elementos que o valor de ```K```e cada nó é uma posição do heap.
 
 - Depois desses passos, todas as árvores e o heap são excluídos.
 - É processada a próxima palavra, e o procedimento se repete até que todos os inputs sejam processados.
@@ -166,8 +152,6 @@ Ocorreu rotação dupla, primeiro uma simples à esquerda e depois uma simples �
 O nó $6$ que anteriormente era pai do $7$, se tornou filho esquerdo dele.
 
 
-
-
 ### Codificação de Huffman
 
 O algoritmo de codificação de Huffman é um método de compressão de dados que é amplamente utilizado na compactação de informações. É útil para compactar os dados nos quais há caracteres (palavras) que ocorrem com frequência. Foi desenvolvido pela primeira vez por David Huffman.<br>
@@ -208,20 +192,19 @@ Por exemplo, o código da palavra "talvez" será "101"
 
 
 
-
 ## 💻Comparação entre algoritmos
 
-As árvores de busca binária podem ser bem aplicada em algoritmos de ordenação por exemplo, ou ainda usadas para representar uma hierarquia de forma eficiente e ainda serem uilizadas como estruturas de dados que implementam dicionários (tabelas de hash) para manter as chaves em ordem, permitindo a busca eficiente de chaves próximas. <br>
+As árvores de busca binária podem ser bem aplicada em algoritmos de ordenação por exemplo, ou ainda usadas para representar uma hierarquia de forma eficiente e ainda serem uilizadas como estruturas de dados que implementam dicionários (tabela hash) para manter as chaves em ordem, permitindo a busca eficiente de chaves próximas. <br>
 Porém, a falta de equilíbrio é uma desvantagem para as árvores binárias, pois no pior caso, a altura da árvore pode ser $O(n)$, resultando em complexidade de tempo de $O(n)$ para as operações. <br> 
-Pois ela se torna cada vez mais profunda  
+Pois ela se torna cada vez mais profunda  .
 
 <br>
 No entanto, o processo de balanceamento pode ser custoso. Na estrutura AVL, envolve a atualização de ponteiros e valores em diferentes partes da árvore. Exigindo mais operações de rotação e ajuste para cada novo nó inserido ou removido.<br>
 Porém, essas árvores garantem a estabilidade aproximada da estrutura, tornando-as valiosas em cenários onde o equilíbrio é fundamental para o desempenho geral do sistema. Pórem para grande volume de dados, manter o custo das rotações e de mais elementos para montar a estrutura, torna a AVL menos viável de ser utilizada.
 <br>
 
-Entretanto, a frequência de uma determinada informação em um grupo de dados pode ser revelante, no caso da codificação de Huffman, por exemplo, em ASCII, cada código de caractere ocupa exatamente 8 bits. Na prática, nem todos os caracteres ocorrem com a mesma frequência.<br> 
-A codificação Huffman tira vantagem disso e atribui códigos menores para caracteres mais frequentes, em detrimento da atribuição de códigos maiores para caracteres menos frequentes. Ainda, nessa codificação não existe outra palavra de código que seja um prefixo de outra palavra de código válida. Torando-se uma implementação útil para Compactação de arquivos e Transmissão de dados pela Internet, pois cada código é exclusivo para cada dado.
+Entretanto, a frequência de uma determinada informação em um grupo de dados pode ser revelante, no caso da codificação de Huffman, por exemplo. Na prática, nem todos as palavras ocorrem com a mesma frequência.<br> 
+A codificação Huffman tira vantagem disso e atribui códigos menores para strings mais frequentes, em detrimento da atribuição de códigos maiores para as menos frequentes. Torando-se uma implementação útil para Compactação de arquivos e Transmissão de dados pela Internet, pois cada código é exclusivo para cada dado.
 <br> 
 - Se tratando de tempo de execução, a diferença entre os algoritmos pode ser mostrada pelo gráfico abaixo, que marca o tempo de construção da estrutura, escrita no output e exclusão da mesma, medido em nanossegundos.<br> 
 Para este teste, foi feito a construção para um texto, no caso, o texto ```filosofia```, buscando 8 palavras, contidas no input disponibilizado.
@@ -262,10 +245,8 @@ No terminal é mostrado apenas o tempo de execução total do programa.<br>
 
 ##  📋Conclusão 
 
-Este projeto permitiu a exploração e implementação de diferentes estruturas de dados e algoritmos em um contexto prático. Foi possível observar as vantagens e desvantagens de cada uma dessas estruturas e algoritmos em relação à tarefa de autocompletar e oferecer sugestões de palavras aos usuários.
-As árvores binárias demonstraram ser eficazes para a busca e organização de palavras, mas sua falta de balanceamento pode levar a um desempenho inferior em casos extremos. A árvore AVL, por outro lado, garante um equilíbrio automático, tornando-a uma escolha sólida quando a estabilidade da estrutura é crucial.
-A codificação de Huffman mostrou ser uma técnica poderosa para otimizar a representação de palavras com base em sua frequência, economizando espaço e sendo útil em cenários de compactação de dados.
-Em termos de tempo de execução, os algoritmos apresentaram desempenho variado, com a árvore binária comum sendo um pouco mais rápida do que as duas outras estruturas, neste cenário.
+Este projeto permitiu a exploração e implementação de diferentes estruturas de dados e algoritmos em um contexto prático. Foi possível observar as vantagens e desvantagens de cada uma desses algoritmos em relação à tarefa de autocompletar e oferecer sugestões de palavras aos usuários.
+Em termos de tempo de execução, os algoritmos apresentaram desempenho variado, com a árvore binária comum sendo um pouco mais rápida do que as duas outras estruturas, neste contexto.
 
 ##  👾Compilação e Execução  
 
@@ -277,13 +258,6 @@ Esse pequeno exemplo possui um arquivo Makefile que realiza todo o procedimento 
 |  `make clean`          | Apaga a última compilação realizada contida na pasta build                                        |
 |  `make`                | Executa a compilação do programa utilizando o gcc, e o resultado vai para a pasta build           |
 |  `make run`            | Executa o programa da pasta build após a realização da compilação                                 |
-
-## Referências 
-
-https://www.geeksforgeeks.org/insertion-in-an-avl-tree/ <br>
-https://www.geeksforgeeks.org/huffman-coding-using-priority-queue/ <br>
-https://www.geeksforgeeks.org/applications-advantages-and-disadvantages-of-binary-search-tree/ <br>
-https://www.freecodecamp.org/portuguese/news/insercao-rotacao-e-fator-de-balanceamento-da-arvore-avl-explicados/ <br>
 
 ### Contato 
 <div>

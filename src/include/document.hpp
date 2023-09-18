@@ -32,7 +32,7 @@ void heapify(vector<WordInfo> &aux_heap, int &lenght, int i);
 void finaleHash(const unordered_map<string, WordInfo> &glossary, vector<WordInfo> &aux_heap, int &length, int i);
 
 void nameFile(list<string> &nameFiles);
-void inputFile(string &input, list<string> &wordInput);
+void inputFile(list<string> &wordInput);
 
 void existsInHeap(vector<WordInfo> &heap, string &input, int lenght, int i, vector<WordInfo> &aux_heap);
 bool existGlossary(unordered_map<string, WordInfo> &glossary, string &input);

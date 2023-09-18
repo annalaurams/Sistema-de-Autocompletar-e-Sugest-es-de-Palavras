@@ -52,7 +52,7 @@ void printCodes(Huffman *rootH, int array[], int top) {
 
 void HuffmanCodes(vector<WordInfo> &heap) {
 
-    auto startH = chrono::steady_clock::now();
+    //auto startH = chrono::steady_clock::now();
 
     priority_queue<Huffman *, vector<Huffman *>, Compare> huff;
 
@@ -65,12 +65,11 @@ void HuffmanCodes(vector<WordInfo> &heap) {
 
     int array[MAX], top = 0;
 
-    printCodes(rootH, array, top);
-    cout << endl << endl;
+    //printCodes(rootH, array, top);
     outHuff(rootH, array, top);
     clearHuffmanTree(rootH);
 
-    auto endH = chrono::steady_clock::now();
+    //auto endH = chrono::steady_clock::now();
     //cout << "\nTEMPO HUFFMAN: " << chrono::duration_cast<chrono::nanoseconds>(endH - startH).count() << " ns" << endl << endl;
 }
 

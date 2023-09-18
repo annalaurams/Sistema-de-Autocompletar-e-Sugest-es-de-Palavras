@@ -95,13 +95,13 @@ void outTree(No *root) {
 
 void binaryTree(vector<WordInfo> &heap, No *&root) {
 
-  auto startT = chrono::steady_clock::now();
+  //auto startT = chrono::steady_clock::now();
 
   insert(heap, root);
   outTree(root);
   deleteTree(root);
   
-  auto endT = chrono::steady_clock::now();
+  //auto endT = chrono::steady_clock::now();
  // cout << "\nTEMPO TREE: " << chrono::duration_cast<chrono::nanoseconds>(endT - startT).count() << " ns" << endl << endl;
 }
 
