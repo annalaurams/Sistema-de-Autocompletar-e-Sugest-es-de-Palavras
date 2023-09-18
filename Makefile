@@ -1,5 +1,5 @@
 CXX      := -g++
-CXXFLAGS := 
+CXXFLAGS := -Wall -Wextra -Werror
 LDFLAGS  := -lstdc++ -lm
 BUILD    := ./build
 OBJ_DIR  := $(BUILD)/objects
@@ -38,7 +38,3 @@ clean:
 
 run:
 	./$(BUILD)/$(TARGET)
-
-c: clean all run
-
-r: all run

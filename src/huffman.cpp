@@ -65,7 +65,8 @@ void HuffmanCodes(vector<WordInfo> &heap) {
 
     int array[MAX], top = 0;
 
-   //printCodes(rootH, array, top);
+    printCodes(rootH, array, top);
+    cout << endl << endl;
     outHuff(rootH, array, top);
     clearHuffmanTree(rootH);
 

@@ -267,7 +267,7 @@ void search(int &lenght, int i, unordered_map<string, WordInfo> &glossaryStopWor
 
     string aux = name;
 
-    //cout << "\n\nTEXTO: " << aux << endl;
+    cout << "\n\nTEXTO: " << aux << endl;
 
     processingFiles(glossary, aux);
 
@@ -286,8 +286,11 @@ void search(int &lenght, int i, unordered_map<string, WordInfo> &glossaryStopWor
         existsInHeap(heap, input, lenght, i, aux_heap);
 
         output(input);
+        cout << "\n\nPalavra: " << input << endl;
 
-        //printHeap(heap);
+        printHeap(heap);
+
+        cout << endl;
 
         //cout << "\n\n\tÁRVORE\n\n";
         binaryTree(heap, root);
