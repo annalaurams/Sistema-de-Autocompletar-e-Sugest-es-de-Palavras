@@ -24,6 +24,7 @@ do
 dos
 e
 é
+É
 ela
 elas
 ele

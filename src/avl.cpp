@@ -144,8 +144,8 @@ void avl(vector<WordInfo>heap) {
   outAVL(rootAVL);
 
   removeAllAVL(rootAVL);
- // auto endA = chrono::steady_clock::now();
-  // cout << "\nTEMPO AVL: " << chrono::duration_cast<chrono::nanoseconds>(endA - startA).count() << " ns" << endl << endl;
+  //auto endA = chrono::steady_clock::now();
+  //cout << "\nTEMPO AVL: " << chrono::duration_cast<chrono::nanoseconds>(endA - startA).count() << " ns" << endl << endl;
 
 }
 

@@ -168,104 +168,104 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 priori: 144 sujeito: 154 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 infinito: 89 ]
+[ infinito: 89 wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 pensamento: 115 sistema: 119 condição: 133 priori: 144 sujeito: 154 mundo: 144 modo: 129 segundo: 114 imanente: 109 possível: 95 relação: 89 ]
 
 AVL
-[ infinito: 89 possível: 95 maneira: 95 respeito: 90 pode: 96 wittgenstein: 95 vista: 95 É: 95 imanente: 109 segundo: 114 pensamento: 115 sistema: 119 sobre: 114 sentido: 111 priori: 144 sujeito: 154 mundo: 144 condição: 133 modo: 129 princípio: 97 ]
+[ infinito: 89 relação: 89 wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 condição: 133 modo: 129 sujeito: 154 mundo: 144 priori: 144 segundo: 114 possível: 95 ]
 
 HUFFMAN
-[ princípio 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, pensamento 0101, sistema 0110, modo 0111, condição 1000, priori 1001, mundo 1010, sujeito 1011, infinito 11000, respeito 11001, vista 11010, possível 11011, maneira 11100, wittgenstein 11101, É 11110, pode 11111, ]
+[ princípio 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, pensamento 0101, sistema 0110, modo 0111, condição 1000, priori 1001, mundo 1010, sujeito 1011, relação 11000, infinito 11001, respeito 11010, possível 11011, maneira 11100, vista 11101, wittgenstein 11110, pode 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA           sujeito        | FREQUÊNCIA               154
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 priori: 144 teoria: 192 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 infinito: 89 ]
+[ infinito: 89 wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 pensamento: 115 sistema: 119 condição: 133 priori: 144 teoria: 192 mundo: 144 modo: 129 segundo: 114 imanente: 109 possível: 95 relação: 89 ]
 
 AVL
-[ infinito: 89 possível: 95 maneira: 95 respeito: 90 pode: 96 wittgenstein: 95 vista: 95 É: 95 imanente: 109 segundo: 114 pensamento: 115 sistema: 119 sobre: 114 sentido: 111 priori: 144 teoria: 192 mundo: 144 condição: 133 modo: 129 princípio: 97 ]
+[ infinito: 89 relação: 89 wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 condição: 133 modo: 129 teoria: 192 mundo: 144 priori: 144 segundo: 114 possível: 95 ]
 
 HUFFMAN
-[ princípio 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, pensamento 0101, sistema 0110, modo 0111, condição 1000, mundo 1001, priori 1010, infinito 10110, respeito 10111, vista 11000, possível 11001, maneira 11010, wittgenstein 11011, É 11100, pode 11101, teoria 1111, ]
+[ princípio 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, pensamento 0101, sistema 0110, modo 0111, condição 1000, priori 1001, mundo 1010, relação 10110, infinito 10111, respeito 11000, possível 11001, maneira 11010, vista 11011, wittgenstein 11100, pode 11101, teoria 1111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA            priori        | FREQUÊNCIA               144
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 infinito: 89 ]
+[ infinito: 89 wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 pensamento: 115 sistema: 119 condição: 133 teoria: 192 sujeito: 154 mundo: 144 modo: 129 segundo: 114 imanente: 109 possível: 95 relação: 89 ]
 
 AVL
-[ infinito: 89 possível: 95 maneira: 95 respeito: 90 pode: 96 wittgenstein: 95 vista: 95 É: 95 imanente: 109 segundo: 114 pensamento: 115 sistema: 119 sobre: 114 sentido: 111 condição: 133 sujeito: 154 teoria: 192 mundo: 144 modo: 129 princípio: 97 ]
+[ infinito: 89 relação: 89 wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 condição: 133 teoria: 192 sujeito: 154 mundo: 144 modo: 129 segundo: 114 possível: 95 ]
 
 HUFFMAN
-[ princípio 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, pensamento 0101, sistema 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, infinito 10110, respeito 10111, vista 11000, possível 11001, maneira 11010, wittgenstein 11011, É 11100, pode 11101, teoria 1111, ]
+[ princípio 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, pensamento 0101, sistema 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, relação 10110, infinito 10111, respeito 11000, possível 11001, maneira 11010, vista 11011, wittgenstein 11100, pode 11101, teoria 1111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA          processo        | FREQUÊNCIA                58
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 ]
+[ wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 pensamento: 115 sistema: 119 condição: 133 priori: 144 teoria: 192 sujeito: 154 mundo: 144 modo: 129 segundo: 114 imanente: 109 possível: 95 infinito: 89 ]
 
 AVL
-[ possível: 95 maneira: 95 respeito: 90 vista: 95 É: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 modo: 129 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sobre: 114 wittgenstein: 95 ]
+[ infinito: 89 wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 condição: 133 modo: 129 teoria: 192 sujeito: 154 mundo: 144 priori: 144 segundo: 114 possível: 95 ]
 
 HUFFMAN
-[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, priori 1000, mundo 1001, sujeito 1010, respeito 10110, wittgenstein 10111, vista 11000, possível 11001, É 11010, maneira 11011, teoria 1110, pode 11110, princípio 11111, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, mundo 1000, priori 1001, sujeito 1010, infinito 10110, respeito 10111, possível 11000, maneira 11001, vista 11010, wittgenstein 11011, teoria 1110, pode 11110, princípio 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             assim        | FREQUÊNCIA                86
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 ]
+[ wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 pensamento: 115 sistema: 119 condição: 133 priori: 144 teoria: 192 sujeito: 154 mundo: 144 modo: 129 segundo: 114 imanente: 109 possível: 95 infinito: 89 ]
 
 AVL
-[ possível: 95 maneira: 95 respeito: 90 vista: 95 É: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 modo: 129 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sobre: 114 wittgenstein: 95 ]
+[ infinito: 89 wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 condição: 133 modo: 129 teoria: 192 sujeito: 154 mundo: 144 priori: 144 segundo: 114 possível: 95 ]
 
 HUFFMAN
-[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, priori 1000, mundo 1001, sujeito 1010, respeito 10110, wittgenstein 10111, vista 11000, possível 11001, É 11010, maneira 11011, teoria 1110, pode 11110, princípio 11111, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, mundo 1000, priori 1001, sujeito 1010, infinito 10110, respeito 10111, possível 11000, maneira 11001, vista 11010, wittgenstein 11011, teoria 1110, pode 11110, princípio 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA         político        | FREQUÊNCIA                38
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 ]
+[ wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 pensamento: 115 sistema: 119 condição: 133 priori: 144 teoria: 192 sujeito: 154 mundo: 144 modo: 129 segundo: 114 imanente: 109 possível: 95 infinito: 89 ]
 
 AVL
-[ possível: 95 maneira: 95 respeito: 90 vista: 95 É: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 modo: 129 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sobre: 114 wittgenstein: 95 ]
+[ infinito: 89 wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 condição: 133 modo: 129 teoria: 192 sujeito: 154 mundo: 144 priori: 144 segundo: 114 possível: 95 ]
 
 HUFFMAN
-[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, priori 1000, mundo 1001, sujeito 1010, respeito 10110, wittgenstein 10111, vista 11000, possível 11001, É 11010, maneira 11011, teoria 1110, pode 11110, princípio 11111, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, mundo 1000, priori 1001, sujeito 1010, infinito 10110, respeito 10111, possível 11000, maneira 11001, vista 11010, wittgenstein 11011, teoria 1110, pode 11110, princípio 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             dados        | FREQUÊNCIA                19
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 ]
+[ wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 pensamento: 115 sistema: 119 condição: 133 priori: 144 teoria: 192 sujeito: 154 mundo: 144 modo: 129 segundo: 114 imanente: 109 possível: 95 infinito: 89 ]
 
 AVL
-[ possível: 95 maneira: 95 respeito: 90 vista: 95 É: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 modo: 129 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sobre: 114 wittgenstein: 95 ]
+[ infinito: 89 wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 condição: 133 modo: 129 teoria: 192 sujeito: 154 mundo: 144 priori: 144 segundo: 114 possível: 95 ]
 
 HUFFMAN
-[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, priori 1000, mundo 1001, sujeito 1010, respeito 10110, wittgenstein 10111, vista 11000, possível 11001, É 11010, maneira 11011, teoria 1110, pode 11110, princípio 11111, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, mundo 1000, priori 1001, sujeito 1010, infinito 10110, respeito 10111, possível 11000, maneira 11001, vista 11010, wittgenstein 11011, teoria 1110, pode 11110, princípio 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA         filosofia        | FREQUÊNCIA                19
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ possível: 95 maneira: 95 É: 95 vista: 95 pode: 96 wittgenstein: 95 segundo: 114 pensamento: 115 sistema: 119 modo: 129 sobre: 114 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sentido: 111 imanente: 109 princípio: 97 respeito: 90 ]
+[ wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 pensamento: 115 sistema: 119 condição: 133 priori: 144 teoria: 192 sujeito: 154 mundo: 144 modo: 129 segundo: 114 imanente: 109 possível: 95 infinito: 89 ]
 
 AVL
-[ possível: 95 maneira: 95 respeito: 90 vista: 95 É: 95 pode: 96 princípio: 97 segundo: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 modo: 129 priori: 144 sujeito: 154 teoria: 192 mundo: 144 condição: 133 sobre: 114 wittgenstein: 95 ]
+[ infinito: 89 wittgenstein: 95 vista: 95 maneira: 95 respeito: 90 pode: 96 princípio: 97 sobre: 114 sentido: 111 imanente: 109 pensamento: 115 sistema: 119 condição: 133 modo: 129 teoria: 192 sujeito: 154 mundo: 144 priori: 144 segundo: 114 possível: 95 ]
 
 HUFFMAN
-[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, priori 1000, mundo 1001, sujeito 1010, respeito 10110, wittgenstein 10111, vista 11000, possível 11001, É 11010, maneira 11011, teoria 1110, pode 11110, princípio 11111, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, pensamento 0100, sistema 0101, modo 0110, condição 0111, mundo 1000, priori 1001, sujeito 1010, infinito 10110, respeito 10111, possível 11000, maneira 11001, vista 11010, wittgenstein 11011, teoria 1110, pode 11110, princípio 11111, ]
 
 ================================================================================================================================================================================================================================================================================================================================
 > TEXTO   filosofia.txt
@@ -275,104 +275,104 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 princípio: 91 ]
+[ princípio: 91 wittgenstein: 95 quanto: 95 maneira: 95 assim: 94 virtual: 93 vista: 96 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 condição: 134 modo: 129 priori: 125 sistema: 115 sujeito: 158 mundo: 134 sobre: 114 pode: 95 realidade: 91 ]
 
 AVL
-[ princípio: 91 virtual: 93 quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 segundo: 114 condição: 134 sujeito: 158 mundo: 134 modo: 129 sentido: 110 pode: 95 ]
+[ princípio: 91 realidade: 91 wittgenstein: 95 quanto: 95 assim: 94 virtual: 93 vista: 96 pode: 95 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 sistema: 115 condição: 134 modo: 129 sujeito: 158 mundo: 134 priori: 125 sobre: 114 maneira: 95 ]
 
 HUFFMAN
-[ vista 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, sistema 0101, pensamento 0110, priori 0111, modo 1000, mundo 1001, condição 1010, sujeito 1011, princípio 11000, virtual 11001, assim 11010, pode 11011, maneira 11100, wittgenstein 11101, quanto 11110, É 11111, ]
+[ vista 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, sistema 0101, pensamento 0110, priori 0111, modo 1000, mundo 1001, condição 1010, sujeito 1011, realidade 11000, princípio 11001, virtual 11010, assim 11011, pode 11100, maneira 11101, wittgenstein 11110, quanto 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA           sujeito        | FREQUÊNCIA               158
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 princípio: 91 ]
+[ princípio: 91 wittgenstein: 95 quanto: 95 maneira: 95 assim: 94 virtual: 93 vista: 96 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 condição: 134 modo: 129 priori: 125 sistema: 115 teoria: 176 mundo: 134 sobre: 114 pode: 95 realidade: 91 ]
 
 AVL
-[ princípio: 91 virtual: 93 quanto: 95 maneira: 95 assim: 94 É: 96 pode: 95 imanente: 104 vista: 96 sobre: 114 sistema: 115 priori: 125 pensamento: 115 segundo: 114 condição: 134 teoria: 176 mundo: 134 modo: 129 sentido: 110 wittgenstein: 95 ]
+[ princípio: 91 realidade: 91 wittgenstein: 95 quanto: 95 assim: 94 virtual: 93 vista: 96 pode: 95 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 sistema: 115 condição: 134 modo: 129 teoria: 176 mundo: 134 priori: 125 sobre: 114 maneira: 95 ]
 
 HUFFMAN
-[ É 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, pensamento 0101, sistema 0110, priori 0111, modo 1000, condição 1001, mundo 1010, teoria 1011, princípio 11000, virtual 11001, assim 11010, pode 11011, maneira 11100, wittgenstein 11101, quanto 11110, vista 11111, ]
+[ vista 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, sistema 0101, pensamento 0110, priori 0111, modo 1000, mundo 1001, condição 1010, teoria 1011, realidade 11000, princípio 11001, virtual 11010, assim 11011, wittgenstein 11100, quanto 11101, pode 11110, maneira 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA            priori        | FREQUÊNCIA               125
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 pensamento: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 princípio: 91 ]
+[ princípio: 91 wittgenstein: 95 quanto: 95 maneira: 95 assim: 94 virtual: 93 vista: 96 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 condição: 134 modo: 129 sistema: 115 sujeito: 158 teoria: 176 mundo: 134 sobre: 114 pode: 95 realidade: 91 ]
 
 AVL
-[ princípio: 91 virtual: 93 quanto: 95 maneira: 95 assim: 94 É: 96 pode: 95 imanente: 104 vista: 96 sobre: 114 sistema: 115 pensamento: 115 segundo: 114 condição: 134 sujeito: 158 teoria: 176 mundo: 134 modo: 129 sentido: 110 wittgenstein: 95 ]
+[ princípio: 91 realidade: 91 wittgenstein: 95 quanto: 95 assim: 94 virtual: 93 vista: 96 pode: 95 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 sistema: 115 condição: 134 sujeito: 158 teoria: 176 mundo: 134 modo: 129 sobre: 114 maneira: 95 ]
 
 HUFFMAN
-[ É 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, sistema 0101, pensamento 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, teoria 1011, princípio 11000, virtual 11001, assim 11010, pode 11011, maneira 11100, wittgenstein 11101, quanto 11110, vista 11111, ]
+[ vista 0000, imanente 0001, sentido 0010, sobre 0011, segundo 0100, sistema 0101, pensamento 0110, modo 0111, mundo 1000, condição 1001, sujeito 1010, teoria 1011, realidade 11000, princípio 11001, virtual 11010, assim 11011, pode 11100, maneira 11101, wittgenstein 11110, quanto 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA          processo        | FREQUÊNCIA                57
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 ]
+[ wittgenstein: 95 quanto: 95 maneira: 95 assim: 94 virtual: 93 vista: 96 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 condição: 134 modo: 129 priori: 125 sistema: 115 sujeito: 158 teoria: 176 mundo: 134 sobre: 114 pode: 95 princípio: 91 ]
 
 AVL
-[ virtual: 93 quanto: 95 maneira: 95 assim: 94 É: 96 pode: 95 imanente: 104 vista: 96 wittgenstein: 95 sobre: 114 sistema: 115 priori: 125 pensamento: 115 segundo: 114 condição: 134 sujeito: 158 teoria: 176 mundo: 134 modo: 129 sentido: 110 ]
+[ princípio: 91 wittgenstein: 95 quanto: 95 assim: 94 virtual: 93 vista: 96 pode: 95 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 sistema: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 priori: 125 sobre: 114 maneira: 95 ]
 
 HUFFMAN
-[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, teoria 1011, virtual 11000, assim 11001, pode 11010, wittgenstein 11011, quanto 11100, maneira 11101, É 11110, vista 11111, ]
+[ imanente 0000, sentido 0001, segundo 0010, sobre 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, mundo 1000, condição 1001, sujeito 1010, teoria 1011, princípio 11000, virtual 11001, assim 11010, quanto 11011, maneira 11100, pode 11101, wittgenstein 11110, vista 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             assim        | FREQUÊNCIA                94
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ quanto: 95 maneira: 95 wittgenstein: 95 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 princípio: 91 ]
+[ princípio: 91 wittgenstein: 95 quanto: 95 maneira: 95 virtual: 93 vista: 96 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 condição: 134 modo: 129 priori: 125 sistema: 115 sujeito: 158 teoria: 176 mundo: 134 sobre: 114 pode: 95 realidade: 91 ]
 
 AVL
-[ princípio: 91 quanto: 95 maneira: 95 virtual: 93 É: 96 pode: 95 imanente: 104 vista: 96 wittgenstein: 95 sobre: 114 sistema: 115 priori: 125 pensamento: 115 segundo: 114 condição: 134 sujeito: 158 teoria: 176 mundo: 134 modo: 129 sentido: 110 ]
+[ princípio: 91 realidade: 91 wittgenstein: 95 quanto: 95 virtual: 93 vista: 96 pode: 95 segundo: 114 sentido: 110 imanente: 104 maneira: 95 pensamento: 115 sistema: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 priori: 125 sobre: 114 ]
 
 HUFFMAN
-[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, teoria 1011, princípio 11000, virtual 11001, maneira 11010, wittgenstein 11011, pode 11100, quanto 11101, É 11110, vista 11111, ]
+[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, mundo 1000, condição 1001, sujeito 1010, teoria 1011, realidade 11000, princípio 11001, virtual 11010, pode 11011, quanto 11100, maneira 11101, wittgenstein 11110, vista 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA         político        | FREQUÊNCIA                36
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 ]
+[ wittgenstein: 95 quanto: 95 maneira: 95 assim: 94 virtual: 93 vista: 96 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 condição: 134 modo: 129 priori: 125 sistema: 115 sujeito: 158 teoria: 176 mundo: 134 sobre: 114 pode: 95 princípio: 91 ]
 
 AVL
-[ virtual: 93 quanto: 95 maneira: 95 assim: 94 É: 96 pode: 95 imanente: 104 vista: 96 wittgenstein: 95 sobre: 114 sistema: 115 priori: 125 pensamento: 115 segundo: 114 condição: 134 sujeito: 158 teoria: 176 mundo: 134 modo: 129 sentido: 110 ]
+[ princípio: 91 wittgenstein: 95 quanto: 95 assim: 94 virtual: 93 vista: 96 pode: 95 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 sistema: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 priori: 125 sobre: 114 maneira: 95 ]
 
 HUFFMAN
-[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, teoria 1011, virtual 11000, assim 11001, pode 11010, wittgenstein 11011, quanto 11100, maneira 11101, É 11110, vista 11111, ]
+[ imanente 0000, sentido 0001, segundo 0010, sobre 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, mundo 1000, condição 1001, sujeito 1010, teoria 1011, princípio 11000, virtual 11001, assim 11010, quanto 11011, maneira 11100, pode 11101, wittgenstein 11110, vista 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             dados        | FREQUÊNCIA                19
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 ]
+[ wittgenstein: 95 quanto: 95 maneira: 95 assim: 94 virtual: 93 vista: 96 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 condição: 134 modo: 129 priori: 125 sistema: 115 sujeito: 158 teoria: 176 mundo: 134 sobre: 114 pode: 95 princípio: 91 ]
 
 AVL
-[ virtual: 93 quanto: 95 maneira: 95 assim: 94 É: 96 pode: 95 imanente: 104 vista: 96 wittgenstein: 95 sobre: 114 sistema: 115 priori: 125 pensamento: 115 segundo: 114 condição: 134 sujeito: 158 teoria: 176 mundo: 134 modo: 129 sentido: 110 ]
+[ princípio: 91 wittgenstein: 95 quanto: 95 assim: 94 virtual: 93 vista: 96 pode: 95 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 sistema: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 priori: 125 sobre: 114 maneira: 95 ]
 
 HUFFMAN
-[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, teoria 1011, virtual 11000, assim 11001, pode 11010, wittgenstein 11011, quanto 11100, maneira 11101, É 11110, vista 11111, ]
+[ imanente 0000, sentido 0001, segundo 0010, sobre 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, mundo 1000, condição 1001, sujeito 1010, teoria 1011, princípio 11000, virtual 11001, assim 11010, quanto 11011, maneira 11100, pode 11101, wittgenstein 11110, vista 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA         filosofia        | FREQUÊNCIA                19
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ quanto: 95 maneira: 95 wittgenstein: 95 assim: 94 É: 96 vista: 96 imanente: 104 sobre: 114 sistema: 115 priori: 125 pensamento: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 segundo: 114 sentido: 110 pode: 95 virtual: 93 ]
+[ wittgenstein: 95 quanto: 95 maneira: 95 assim: 94 virtual: 93 vista: 96 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 condição: 134 modo: 129 priori: 125 sistema: 115 sujeito: 158 teoria: 176 mundo: 134 sobre: 114 pode: 95 princípio: 91 ]
 
 AVL
-[ virtual: 93 quanto: 95 maneira: 95 assim: 94 É: 96 pode: 95 imanente: 104 vista: 96 wittgenstein: 95 sobre: 114 sistema: 115 priori: 125 pensamento: 115 segundo: 114 condição: 134 sujeito: 158 teoria: 176 mundo: 134 modo: 129 sentido: 110 ]
+[ princípio: 91 wittgenstein: 95 quanto: 95 assim: 94 virtual: 93 vista: 96 pode: 95 segundo: 114 sentido: 110 imanente: 104 pensamento: 115 sistema: 115 condição: 134 modo: 129 sujeito: 158 teoria: 176 mundo: 134 priori: 125 sobre: 114 maneira: 95 ]
 
 HUFFMAN
-[ imanente 0000, sentido 0001, sobre 0010, segundo 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, condição 1000, mundo 1001, sujeito 1010, teoria 1011, virtual 11000, assim 11001, pode 11010, wittgenstein 11011, quanto 11100, maneira 11101, É 11110, vista 11111, ]
+[ imanente 0000, sentido 0001, segundo 0010, sobre 0011, sistema 0100, pensamento 0101, priori 0110, modo 0111, mundo 1000, condição 1001, sujeito 1010, teoria 1011, princípio 11000, virtual 11001, assim 11010, quanto 11011, maneira 11100, pode 11101, wittgenstein 11110, vista 11111, ]
 
 ================================================================================================================================================================================================================================================================================================================================
 > TEXTO globalizacao.txt
@@ -382,52 +382,52 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ ressaltar: 133 funcionais: 133 formação: 133 geral: 133 necessidade: 134 quadros: 134 melhoria: 134 importância: 134 sistema: 134 pode: 134 informações: 134 formas: 134 podemos: 134 É: 134 estabelecimento: 134 modo: 134 assim: 199 sentido: 200 impacto: 134 condições: 133 ]
+[ funcionais: 133 ressaltar: 133 condições: 133 formação: 133 geral: 133 formas: 134 sistema: 134 melhoria: 134 necessidade: 134 pode: 134 importância: 134 informações: 134 modo: 134 podemos: 134 quadros: 134 estabelecimento: 134 sentido: 200 assim: 199 impacto: 134 determinação: 133 ]
 
 AVL
-[ ressaltar: 133 funcionais: 133 geral: 133 formação: 133 necessidade: 134 quadros: 134 melhoria: 134 sistema: 134 informações: 134 pode: 134 importância: 134 condições: 133 podemos: 134 estabelecimento: 134 É: 134 assim: 199 sentido: 200 impacto: 134 modo: 134 formas: 134 ]
+[ funcionais: 133 ressaltar: 133 condições: 133 geral: 133 formação: 133 formas: 134 sistema: 134 necessidade: 134 melhoria: 134 importância: 134 modo: 134 informações: 134 pode: 134 quadros: 134 sentido: 200 assim: 199 impacto: 134 estabelecimento: 134 podemos: 134 determinação: 133 ]
 
 HUFFMAN
-[ formas 0000, modo 0001, necessidade 0010, quadros 0011, pode 0100, impacto 0101, melhoria 0110, sistema 0111, estabelecimento 1000, informações 1001, assim 1010, sentido 1011, funcionais 11000, ressaltar 11001, condições 11010, geral 11011, formação 11100, importância 11101, podemos 11110, É 11111, ]
+[ sistema 0000, melhoria 0001, informações 0010, estabelecimento 0011, importância 0100, necessidade 0101, impacto 0110, quadros 0111, formas 1000, pode 1001, assim 1010, sentido 1011, determinação 11000, geral 11001, ressaltar 11010, formação 11011, condições 11100, funcionais 11101, modo 11110, podemos 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA             assim        | FREQUÊNCIA               199
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ ressaltar: 133 funcionais: 133 formação: 133 geral: 133 necessidade: 134 quadros: 134 melhoria: 134 importância: 134 sistema: 134 pode: 134 informações: 134 formas: 134 podemos: 134 É: 134 estabelecimento: 134 modo: 134 processo: 200 sentido: 200 impacto: 134 condições: 133 ]
+[ funcionais: 133 ressaltar: 133 condições: 133 formação: 133 geral: 133 formas: 134 sistema: 134 melhoria: 134 necessidade: 134 pode: 134 importância: 134 informações: 134 modo: 134 podemos: 134 quadros: 134 estabelecimento: 134 sentido: 200 processo: 200 impacto: 134 determinação: 133 ]
 
 AVL
-[ ressaltar: 133 funcionais: 133 geral: 133 formação: 133 necessidade: 134 quadros: 134 melhoria: 134 sistema: 134 informações: 134 pode: 134 importância: 134 condições: 133 podemos: 134 estabelecimento: 134 É: 134 processo: 200 sentido: 200 impacto: 134 modo: 134 formas: 134 ]
+[ funcionais: 133 ressaltar: 133 condições: 133 geral: 133 formação: 133 formas: 134 sistema: 134 necessidade: 134 melhoria: 134 importância: 134 modo: 134 informações: 134 pode: 134 quadros: 134 sentido: 200 processo: 200 impacto: 134 estabelecimento: 134 podemos: 134 determinação: 133 ]
 
 HUFFMAN
-[ formas 0000, modo 0001, necessidade 0010, quadros 0011, pode 0100, impacto 0101, melhoria 0110, sistema 0111, estabelecimento 1000, informações 1001, processo 1010, sentido 1011, funcionais 11000, ressaltar 11001, condições 11010, geral 11011, formação 11100, importância 11101, podemos 11110, É 11111, ]
+[ quadros 0000, importância 0001, formas 0010, sistema 0011, melhoria 0100, impacto 0101, modo 0110, podemos 0111, necessidade 1000, pode 1001, processo 1010, sentido 1011, determinação 11000, geral 11001, condições 11010, funcionais 11011, formação 11100, ressaltar 11101, informações 11110, estabelecimento 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA        políticas        | FREQUÊNCIA                67
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ ressaltar: 133 funcionais: 133 formação: 133 necessidade: 134 quadros: 134 melhoria: 134 importância: 134 sistema: 134 pode: 134 informações: 134 formas: 134 podemos: 134 É: 134 impacto: 134 estabelecimento: 134 processo: 200 assim: 199 sentido: 200 modo: 134 geral: 133 ]
+[ funcionais: 133 ressaltar: 133 condições: 133 formação: 133 formas: 134 sistema: 134 melhoria: 134 necessidade: 134 pode: 134 importância: 134 informações: 134 modo: 134 podemos: 134 impacto: 134 quadros: 134 sentido: 200 processo: 200 assim: 199 estabelecimento: 134 geral: 133 ]
 
 AVL
-[ ressaltar: 133 funcionais: 133 formação: 133 necessidade: 134 quadros: 134 melhoria: 134 sistema: 134 informações: 134 pode: 134 importância: 134 geral: 133 É: 134 podemos: 134 estabelecimento: 134 processo: 200 assim: 199 sentido: 200 modo: 134 impacto: 134 formas: 134 ]
+[ funcionais: 133 ressaltar: 133 formação: 133 condições: 133 formas: 134 sistema: 134 necessidade: 134 melhoria: 134 importância: 134 pode: 134 geral: 133 podemos: 134 modo: 134 quadros: 134 sentido: 200 processo: 200 assim: 199 estabelecimento: 134 impacto: 134 informações: 134 ]
 
 HUFFMAN
-[ pode 0000, informações 0001, importância 0010, necessidade 0011, estabelecimento 0100, formas 0101, É 0110, modo 0111, podemos 1000, assim 1001, processo 1010, sentido 1011, ressaltar 11000, formação 11001, geral 11010, funcionais 11011, sistema 11100, quadros 11101, melhoria 11110, impacto 11111, ]
+[ pode 0000, sistema 0001, importância 0010, informações 0011, melhoria 0100, impacto 0101, podemos 0110, estabelecimento 0111, modo 1000, assim 1001, sentido 1010, processo 1011, geral 11000, condições 11001, funcionais 11010, ressaltar 11011, formação 11100, necessidade 11101, quadros 11110, formas 11111, ]
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 | PALAVRA         político        | FREQUÊNCIA                66
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ÁRVORE BINÁRIA
-[ ressaltar: 133 funcionais: 133 formação: 133 necessidade: 134 quadros: 134 melhoria: 134 importância: 134 sistema: 134 pode: 134 informações: 134 formas: 134 podemos: 134 É: 134 impacto: 134 estabelecimento: 134 processo: 200 assim: 199 sentido: 200 modo: 134 geral: 133 ]
+[ funcionais: 133 ressaltar: 133 condições: 133 formação: 133 formas: 134 sistema: 134 melhoria: 134 necessidade: 134 pode: 134 importância: 134 informações: 134 modo: 134 podemos: 134 impacto: 134 quadros: 134 sentido: 200 processo: 200 assim: 199 estabelecimento: 134 geral: 133 ]
 
 AVL
-[ ressaltar: 133 funcionais: 133 formação: 133 necessidade: 134 quadros: 134 melhoria: 134 sistema: 134 informações: 134 pode: 134 importância: 134 geral: 133 É: 134 podemos: 134 estabelecimento: 134 processo: 200 assim: 199 sentido: 200 modo: 134 impacto: 134 formas: 134 ]
+[ funcionais: 133 ressaltar: 133 formação: 133 condições: 133 formas: 134 sistema: 134 necessidade: 134 melhoria: 134 importância: 134 pode: 134 geral: 133 podemos: 134 modo: 134 quadros: 134 sentido: 200 processo: 200 assim: 199 estabelecimento: 134 impacto: 134 informações: 134 ]
 
 HUFFMAN
-[ pode 0000, informações 0001, importância 0010, necessidade 0011, estabelecimento 0100, formas 0101, É 0110, modo 0111, podemos 1000, assim 1001, processo 1010, sentido 1011, ressaltar 11000, formação 11001, geral 11010, funcionais 11011, sistema 11100, quadros 11101, melhoria 11110, impacto 11111, ]
+[ pode 0000, sistema 0001, importância 0010, informações 0011, melhoria 0100, impacto 0101, podemos 0110, estabelecimento 0111, modo 1000, assim 1001, sentido 1010, processo 1011, geral 11000, condições 11001, funcionais 11010, ressaltar 11011, formação 11100, necessidade 11101, quadros 11110, formas 11111, ]
 
 ================================================================================================================================================================================================================================================================================================================================
 > TEXTO          ti.txt

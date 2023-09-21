@@ -4,9 +4,13 @@ Atividade para a disciplina de Algoritmos e Estruturas de Dados II. <br/>
 
 ## 🎯Objetivo 
 
-No âmbito deste projeto, o objetivo consiste em desenvolver um sistema capaz de fornecer funcionalidades de autocompletar e sugestões de palavras aos utilizadores. Para tal, baseamo-nos na estrutura de uma árvore binária comum como alicerce. Além disso, implementamos uma árvore AVL e o algoritmo de Huffman com o intuito de realizar comparações de desempenho.
+O projeto foi desenvolvido na linguagem de programação ```C++```.
 <br>
 O objetivo principal é estabelecer uma relação entre as palavras presentes nos textos, considerando a frequência com que ocorrem, e as palavras que os utilizadores estão a pesquisar.
+<br>A base desse algoritmo segue o trabalho realizado anteriormente e pode ser acessado em  <a href="https://github.com/annalaurams/Top-K-Elementos.git">Top K elementos</a> sendo este continuação do anterior.
+
+No âmbito deste projeto, o objetivo consiste em desenvolver um sistema capaz de fornecer funcionalidades de autocompletar e sugestões de palavras aos utilizadores. Para tal, baseamo-nos na estrutura de uma árvore binária comum como alicerce. Além disso, implementamos uma árvore AVL e o algoritmo de Huffman com o intuito de realizar comparações de desempenho.
+<br>
 
 ## 🗂️Estrutura 
 
@@ -39,12 +43,8 @@ De fora da pasta ```include```contém os arquivos ```.cpp```
 
 As especificações a seguir foram propostas para discussão do problema:
 
+ 
 - Os textos de entrada são lidos independente do nome, desde que estejam na pasta ```data``` e os nomes são armazenados em uma ```list<string>nameFiles```.
-- As palavras do arquivo ```ìnput``` são lidas e armazenadas em uma ```list<string>wordInput```.
-- O conteúdo do arquivo de ```stopwords```, pode ser alterado de acordo com a preferência do usuário, desde que cada palavra esteja em uma linha do arquivo. 
-- As stop words que forem encontradas em cada texto, são em seguida excluídas dele. Pois, por serem artigos e conjunções facilmente seriam as mais frequentes, no entanto foram desconsideradas.
-- O nome do arquivo ```stopwords.txt``` não deve ser alterado.
-
 - Inicialmente o algoritmo percorre a lista com o nome dos arquivos, e para cada texto que é aberto, os seguintes procedimentos ocorrem:
 
 - O algoritmo realiza a leitura dele e cria uma tabela de dispersão (hash) intitulada ```glossary```, para contar quantas vezes cada palavra aparece no texto. A chave do hash é a própria palavra e o valor são as ocorrências, armazenadas em uma struct denominada ```WordInfo```.
@@ -87,14 +87,6 @@ Se a palavra não estiver no texto, nada sobre ela será mostrado no output.
 - As 3 estruturas mencionadas são impressas no formato "pós ordem".
 
 ## 💻Metodologia  
-
-### Heap
-O algoritmo implementa uma min-heap, ou seja, cada nó tem um valor menor ou igual ao valor de seus filhos, mantendo o menor elemento na primeira posição. Os valores a serem armazenados nessa estrutura são as maiores ocorrências de palavras no texto. Dessa forma. é coletado as K palavras com maiores ocorrências. Para cada palavra presenteno texto, será criado um heap.
-
-Custo Computacional: <br>
-$O$  $n(log$ $k)$, onde $n$ é o tamanho da coleção de dados e $k$ o número de itens mais relevantes.
-<br>
-
 ### Árvore Binária Comum
 
 Uma árvore binária é uma estrutura de dados hierárquica composta por nós, em que cada nó pode ter, no máximo, dois filhos: um filho à esquerda e um filho à direita. <br>
@@ -191,26 +183,20 @@ Atribuindo os $0$ e $1$, obtem-se a árvore.<br>
 Por exemplo, o código da palavra "talvez" será "101"
 
 
-
 ## 💻Comparação entre algoritmos
 
 As árvores de busca binária podem ser bem aplicada em algoritmos de ordenação por exemplo, ou ainda usadas para representar uma hierarquia de forma eficiente e ainda serem uilizadas como estruturas de dados que implementam dicionários (tabela hash) para manter as chaves em ordem, permitindo a busca eficiente de chaves próximas. <br>
-Porém, a falta de equilíbrio é uma desvantagem para as árvores binárias, pois no pior caso, a altura da árvore pode ser $O(n)$, resultando em complexidade de tempo de $O(n)$ para as operações. <br> 
-Pois ela se torna cada vez mais profunda  .
-
+Porém, a falta de equilíbrio é uma desvantagem para as árvores binárias, pois no pior caso, a altura da árvore pode ser $O(n)$, resultando em complexidade de tempo de $O(n)$ para as operações. Pois ela se torna cada vez mais profunda.
 <br>
 No entanto, o processo de balanceamento pode ser custoso. Na estrutura AVL, envolve a atualização de ponteiros e valores em diferentes partes da árvore. Exigindo mais operações de rotação e ajuste para cada novo nó inserido ou removido.<br>
 Porém, essas árvores garantem a estabilidade aproximada da estrutura, tornando-as valiosas em cenários onde o equilíbrio é fundamental para o desempenho geral do sistema. Pórem para grande volume de dados, manter o custo das rotações e de mais elementos para montar a estrutura, torna a AVL menos viável de ser utilizada.
 <br>
-
 Entretanto, a frequência de uma determinada informação em um grupo de dados pode ser revelante, no caso da codificação de Huffman, por exemplo. Na prática, nem todos as palavras ocorrem com a mesma frequência.<br> 
 A codificação Huffman tira vantagem disso e atribui códigos menores para strings mais frequentes, em detrimento da atribuição de códigos maiores para as menos frequentes. Torando-se uma implementação útil para Compactação de arquivos e Transmissão de dados pela Internet, pois cada código é exclusivo para cada dado.
 <br> 
 - Se tratando de tempo de execução, a diferença entre os algoritmos pode ser mostrada pelo gráfico abaixo, que marca o tempo de construção da estrutura, escrita no output e exclusão da mesma, medido em nanossegundos.<br> 
 Para este teste, foi feito a construção para um texto, no caso, o texto ```filosofia```, buscando 8 palavras, contidas no input disponibilizado.
 <br> 
-
-
 <div style="display: flex; justify-content: center;">
     <img src="img/grafico.png" width="430" height="280">
 </div>
